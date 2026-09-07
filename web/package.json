@@ -6,6 +6,8 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"build:pages": "BASE_PATH=/learning-engineer-english vite build && mkdir -p ../docs && cp build/index.html ../docs/index.html",
+		"publish:pages": "npm run build:pages && node scripts/publish-pages.mjs",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
