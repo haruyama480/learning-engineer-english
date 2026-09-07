@@ -1,0 +1,2131 @@
+source:
+  name: mercari/engineer-vocabulary-list
+  url: https://github.com/mercari/engineer-vocabulary-list
+  license: CC BY 4.0
+  adapted: true
+  notes: >
+    Vocabulary items are copied from Mercari's Engineer Vocabulary List
+    (CC BY 4.0). Example sentences are based on that list and expanded
+    so each item has 2-3 examples with different sentence structures.
+
+entries:
+  - id: take-a-ticket
+    ja: チケットを取る
+    ja_reading: チケットをとる
+    en: take a ticket
+    pos: phrase
+    lists: [1]
+    examples:
+      - ja: すでに3つチケットを取っているので、今週は取れません。
+        en: I can't take a ticket this week because I have already taken 3.
+        blank: take a ticket
+      - ja: キャパシティがあれば、このチケットを取ってもらえますか。
+        en: Can you take this ticket if you have capacity?
+        blank: take this ticket
+      - ja: 決済APIのバグは、私がチケットを取ります。
+        en: I'll take a ticket for the payment API bug.
+        blank: take a ticket
+
+  - id: already
+    ja: すでに
+    ja_reading: すでに
+    en: already
+    pos: adverb
+    lists: [1]
+    notes: 元リストでは例文欄が「ー」。他の例文中の語として独立させた。
+    examples:
+      - ja: すでに3つチケットを取っているので、今週は取れません。
+        en: I can't take a ticket this week because I have already taken 3.
+        blank: already
+      - ja: その修正は、すでにステージングにデプロイ済みです。
+        en: The fix has already been deployed to staging.
+        blank: already
+      - ja: この件、前回のスタンドアップですでに話しましたか。
+        en: Have we already discussed this in the last standup?
+        blank: already
+
+  - id: create-a-pull-request
+    ja: プルリクを出す
+    ja_reading: プルリクをだす
+    en: make/create a pull request
+    pos: phrase
+    lists: [1]
+    examples:
+      - ja: 昨日、プルリクを出しました。
+        en: I made a pull request yesterday.
+        blank: made a pull request
+      - ja: テストが通ったら、プルリクを出してもらえますか。
+        en: Could you create a pull request once the tests pass?
+        blank: create a pull request
+      - ja: レビューコメントを直したら、プルリクを出します。
+        en: I'll make a pull request after I address the review comments.
+        blank: make a pull request
+
+  - id: develop
+    ja: 開発する
+    ja_reading: かいはつする
+    en: develop
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: 今、通知サービスを開発しています。
+        en: I'm developing the notification service now.
+        blank: developing
+      - ja: この機能は、先四半期に開発しました。
+        en: We developed this feature last quarter.
+        blank: developed
+      - ja: 検索まわりは、どのチームが開発していますか。
+        en: Which team is developing the search flow?
+        blank: developing
+
+  - id: revise
+    ja: 修正する
+    ja_reading: しゅうせいする
+    en: correct, revise
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: 修正は今日中に終わると思います。
+        en: I think I'll revise it by the end of today.
+        blank: revise
+      - ja: READMEの誤字を修正してもらえますか。
+        en: Could you correct the typo in the README?
+        blank: correct
+      - ja: デザインレビューのあと、仕様が修正されました。
+        en: The spec was revised after the design review.
+        blank: revised
+
+  - id: merge
+    ja: マージする
+    ja_reading: マージする
+    en: merge
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: featureブランチをmainにマージしました。
+        en: I merged the feature branch into main.
+        blank: merged
+      - ja: QAがOKを出すまで、マージしないでください。
+        en: Don't merge this until QA signs off.
+        blank: merge
+      - ja: CIが通ったら、そのプルリクをマージできます。
+        en: Once CI is green, we can merge the pull request.
+        blank: merge
+
+  - id: proceed
+    ja: 進める
+    ja_reading: すすめる
+    en: move forward, proceed with, work on
+    pos: verb
+    notes: 他動詞。作業を進める / 計画を前に進める、の両方で使う。
+    lists: [1]
+    examples:
+      - ja: このチケットは、Kenさんと一緒に進めています。
+        en: I'm working on this ticket with Ken.
+        blank: working on
+      - ja: 当初の計画で進めましょう。
+        en: Let's proceed with the original plan.
+        blank: proceed with
+      - ja: 次のスプリントの前に、この件を進めた方がいいです。
+        en: We should move this forward before the next sprint.
+        blank: move this forward
+
+  - id: work-operate
+    ja: 動く
+    ja_reading: うごく
+    en: work, operate
+    pos: verb
+    notes: 主にシステムやジョブが動作している、という文脈。
+    lists: [1]
+    examples:
+      - ja: システムがちゃんと動いてないことがわかった。
+        en: I realized that the system was not working properly.
+        blank: working
+      - ja: バッチジョブは、毎晩0時に動きます。
+        en: The batch job operates every night at midnight.
+        blank: operates
+      - ja: ステージング環境は、今動いていますか。
+        en: Is the staging environment working now?
+        blank: working
+
+  - id: properly
+    ja: ちゃんと
+    ja_reading: ちゃんと
+    en: properly
+    pos: adverb
+    notes: カジュアル。元リストでは例文欄が「ー」。
+    lists: [1]
+    examples:
+      - ja: システムがちゃんと動いてないことがわかった。
+        en: I realized that the system was not working properly.
+        blank: properly
+      - ja: エラーハンドリングは、ちゃんと実装してください。
+        en: Please make sure the error handling is implemented properly.
+        blank: properly
+      - ja: ログがちゃんと収集されていません。
+        en: The logs aren't being collected properly.
+        blank: properly
+
+  - id: make-a-deadline
+    ja: 間に合う
+    ja_reading: まにあう
+    en: be in time, make a deadline
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: 来週のリリースには間に合いそうです。
+        en: It seems that we'll make the release next week.
+        blank: make the release
+      - ja: スコープを増やすと、締切に間に合わないと思います。
+        en: I don't think we can make the deadline if we add more scope.
+        blank: make the deadline
+      - ja: ドキュメントは、ローンチに間に合いますか。
+        en: Will the documentation be in time for the launch?
+        blank: in time
+
+  - id: status
+    ja: 状態
+    ja_reading: じょうたい
+    en: status
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: QAしてもらえる状態のものがありますか。
+        en: Is there anything in a state ready for QA?
+        blank: state
+      - ja: マイグレーションの今の状態を教えてください。
+        en: What's the current status of the migration?
+        blank: status
+      - ja: 障害のあと、サービスは劣化状態です。
+        en: The service is in a degraded status after the incident.
+        blank: status
+
+  - id: issue
+    ja: 課題
+    ja_reading: かだい
+    en: issue
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: 課題が見つかった。
+        en: We found some issues.
+        blank: issues
+      - ja: この課題は、次のレトロで議論した方がいいです。
+        en: This issue should be discussed in the next retro.
+        blank: issue
+      - ja: リリースを止めている未解決の課題はありますか。
+        en: Are there any open issues blocking the release?
+        blank: issues
+
+  - id: requirements
+    ja: 要件
+    ja_reading: ようけん
+    en: requirements
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: 要件は明日、テックリードに共有します。
+        en: I'll share the requirements with the tech leads tomorrow.
+        blank: requirements
+      - ja: 要件がまだはっきりしていません。
+        en: The requirements are still unclear.
+        blank: requirements
+      - ja: 実装を始める前に、要件を固めた方がいいです。
+        en: We should freeze the requirements before implementation starts.
+        blank: requirements
+
+  - id: specification
+    ja: 仕様
+    ja_reading: しよう
+    en: specification
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: まだ仕様が決まってない。
+        en: The specs haven't been decided yet.
+        blank: specs
+      - ja: APIの変更を仕様に反映してください。
+        en: Please update the spec to reflect the API change.
+        blank: spec
+      - ja: 仕様では、このエンドポイントは404を返すことになっています。
+        en: According to the specification, this endpoint should return 404.
+        blank: specification
+
+  - id: take-shape
+    ja: 固まる
+    ja_reading: かたまる
+    en: take shape
+    pos: verb
+    notes: 自動詞。仕様や方針が固まる、という使い方。
+    lists: [1]
+    examples:
+      - ja: まだ仕様が固まっていません。
+        en: The specs haven't taken shape yet.
+        blank: taken shape
+      - ja: 設計が固まったら、見積もり精度が上がります。
+        en: Once the design takes shape, we can estimate more accurately.
+        blank: takes shape
+      - ja: ロールアウト計画が、ようやく固まってきました。
+        en: The rollout plan is starting to take shape.
+        blank: take shape
+
+  - id: obstacle
+    ja: 支障
+    ja_reading: ししょう
+    en: obstacle, hitch
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: それによってプロジェクトに支障が出ています。
+        en: That is causing an obstacle for our project.
+        blank: obstacle
+      - ja: VPNの不調が、日常業務の支障になっています。
+        en: The VPN issues are a hitch in our daily work.
+        blank: hitch
+      - ja: ローンチに支障が出る前に、これを解消する必要があります。
+        en: We need to resolve this before it interferes with the launch.
+        blank: interferes with
+
+  - id: effect
+    ja: 影響
+    ja_reading: えいきょう
+    en: effect, impact
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: これは、お客様に影響があるインシデントじゃないです。
+        en: This is not an incident that has an effect on customers.
+        blank: effect
+      - ja: この変更がチェックアウトに与える影響は何ですか。
+        en: What is the impact of this change on the checkout flow?
+        blank: impact
+      - ja: ロールアウト前に、レイテンシへの影響を確認した方がいいです。
+        en: We should assess the effect on latency before rolling out.
+        blank: effect
+
+  - id: cause
+    ja: 原因
+    ja_reading: げんいん
+    en: cause
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: これから原因を調べます。
+        en: I will look into the causes now.
+        blank: causes
+      - ja: 根本原因は、タイムアウトの設定ミスでした。
+        en: The root cause was a misconfigured timeout.
+        blank: cause
+      - ja: メモリリークの原因は特定できましたか。
+        en: Have we identified the cause of the memory leak?
+        blank: cause
+
+  - id: consult
+    ja: 相談する
+    ja_reading: そうだんする
+    en: consult
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: マネージャーに相談する。
+        en: I'll consult with my manager.
+        blank: consult with
+      - ja: DBスキーマの件、相談してもいいですか。
+        en: Can I consult you about the database schema?
+        blank: consult
+      - ja: その機能を有効にする前に、セキュリティチームに相談しました。
+        en: She consulted the security team before enabling the feature.
+        blank: consulted
+
+  - id: be-in-trouble
+    ja: 困る
+    ja_reading: こまる
+    en: be in trouble, have difficulties
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: 何か困ってることがありますか。
+        en: Do you have any difficulties?
+        blank: difficulties
+      - ja: そのバグの再現で困っています。
+        en: I'm having trouble reproducing the bug.
+        blank: having trouble
+      - ja: デプロイで困ったら、連絡してください。
+        en: Let me know if you're in trouble with the deployment.
+        blank: in trouble
+
+  - id: align-with
+    ja: 連携する
+    ja_reading: れんけいする
+    en: work together, align with
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: これはteam Bと連携してやっていきます。
+        en: We are aligned with team B to do this.
+        blank: aligned with
+      - ja: この件は、SREチームと連携する必要があります。
+        en: We need to work together with the SRE team on this.
+        blank: work together with
+      - ja: スコープを変える前に、PdMと連携してください。
+        en: Please align with the product manager before changing the scope.
+        blank: align with
+
+  - id: sync
+    ja: syncする
+    ja_reading: シンクする
+    en: sync
+    pos: verb
+    notes: 人と認識を合わせる意味と、ブランチやデータを同期する意味の両方。
+    lists: [1]
+    examples:
+      - ja: あとでテックリードとsyncしておきます。
+        en: I will sync with the tech lead later.
+        blank: sync with
+      - ja: 障害の件、明日の朝にsyncしましょう。
+        en: Let's sync tomorrow morning about the incident.
+        blank: sync
+      - ja: PRを出す前に、mainから最新をsyncします。
+        en: I'll sync the latest changes from main before opening the PR.
+        blank: sync
+
+  - id: set
+    ja: 設定する
+    ja_reading: せっていする
+    en: set
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: 目標を設定する。
+        en: I'll set goals.
+        blank: set
+      - ja: タイムアウトは30秒に設定してください。
+        en: Please set the timeout to 30 seconds.
+        blank: set
+      - ja: ローンチ日は、まだ設定していません。
+        en: We haven't set a date for the launch yet.
+        blank: set
+
+  - id: reflect
+    ja: 反映する
+    ja_reading: はんえいする
+    en: reflect
+    pos: verb
+    lists: [1]
+    examples:
+      - ja: 先週修正したけど、Jiraに反映されてません。
+        en: I edited it last week, but it isn't reflected on Jira yet.
+        blank: reflected
+      - ja: 設定変更は、次のデプロイ後に反映されます。
+        en: The config change will be reflected after the next deploy.
+        blank: reflected
+      - ja: 新しい文言が本番に反映されているか確認してください。
+        en: Please make sure the new copy is reflected on the production site.
+        blank: reflected
+
+  - id: efficiency
+    ja: 効率
+    ja_reading: こうりつ
+    en: efficiency
+    pos: noun
+    lists: [1]
+    examples:
+      - ja: そのやり方は、効率がよさそう。
+        en: That method seems efficient.
+        blank: efficient
+      - ja: CIパイプラインの効率を上げた方がいいです。
+        en: We should improve the efficiency of the CI pipeline.
+        blank: efficiency
+      - ja: クエリ結果をキャッシュした方が、効率的です。
+        en: Caching the query results would be more efficient.
+        blank: efficient
+
+  - id: details
+    ja: 詳細
+    ja_reading: しょうさい
+    en: details
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: 詳細はdocsを見てください。
+        en: Please check the docs for details.
+        blank: details
+      - ja: 障害の詳細を、後ほど共有します。
+        en: I'll share the details of the incident later.
+        blank: details
+      - ja: 詳細がわからないので、設計を進められません。
+        en: We can't proceed with the design because the details are unclear.
+        blank: details
+
+  - id: in-detail
+    ja: 詳しく
+    ja_reading: くわしく
+    en: in detail
+    pos: adverb
+    lists: [2]
+    examples:
+      - ja: どんなインシデントだったか詳しく教えてもらえますか。
+        en: Could you tell me about the incident in detail?
+        blank: in detail
+      - ja: ログを詳しく見てみます。
+        en: I'll look at the logs in detail.
+        blank: in detail
+      - ja: 設計ドキュメントで、ロールアウト手順が詳しく書いてあります。
+        en: The rollout steps are described in detail in the design doc.
+        blank: in detail
+
+  - id: policy
+    ja: 方針
+    ja_reading: ほうしん
+    en: policy
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: まだ会社の方針が決まってない。
+        en: The company policy has not been decided yet.
+        blank: policy
+      - ja: この変更は、セキュリティ方針に合っていますか。
+        en: Does this change comply with the security policy?
+        blank: policy
+      - ja: オンコールの方針を、チームで見直しましょう。
+        en: Let's review the on-call policy as a team.
+        blank: policy
+
+  - id: supplementary
+    ja: 補足
+    ja_reading: ほそく
+    en: supplementary, additional
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: ケンさんの話への補足なんですけど。
+        en: Let me add something supplementary to what Ken said.
+        blank: supplementary
+      - ja: 補足ですが、このAPIはまだベータです。
+        en: As an additional note, this API is still in beta.
+        blank: additional
+      - ja: READMEに、セットアップ手順の補足を書きました。
+        en: I added a supplementary note on the setup steps to the README.
+        blank: supplementary
+
+  - id: effective
+    ja: 効果的
+    ja_reading: こうかてき
+    en: effective
+    pos: na-adjective
+    lists: [2]
+    examples:
+      - ja: このやり方が効果的だと思います。
+        en: I think this way is effective.
+        blank: effective
+      - ja: キャッシュは、このレイテンシ問題に効果的ですか。
+        en: Would caching be effective for this latency issue?
+        blank: effective
+      - ja: アラートを減らすには、しきい値の見直しが一番効果的でした。
+        en: Revising the thresholds was the most effective way to reduce alerts.
+        blank: effective
+
+  - id: achieve
+    ja: 達成する
+    ja_reading: たっせいする
+    en: achieve
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: 先週、OKRを達成しました。
+        en: We achieved our OKR last week.
+        blank: achieved
+      - ja: このペースなら、今四半期の目標を達成できそうです。
+        en: At this pace, we should be able to achieve this quarter's goals.
+        blank: achieve
+      - ja: 99.9%の可用性は、まだ達成できていません。
+        en: We haven't achieved 99.9% availability yet.
+        blank: achieved
+
+  - id: report
+    ja: 報告する
+    ja_reading: ほうこくする
+    en: report
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: プロジェクトについて報告します。
+        en: I will report on the project.
+        blank: report on
+      - ja: インシデントは、すぐにオンコールに報告してください。
+        en: Please report the incident to the on-call engineer right away.
+        blank: report
+      - ja: 進捗は、週次でマネージャーに報告しています。
+        en: Progress is reported to the manager weekly.
+        blank: reported
+
+  - id: discuss
+    ja: 議論する
+    ja_reading: ぎろんする
+    en: discuss
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: それはEMが議論しているところです。
+        en: EMs are discussing it now.
+        blank: discussing
+      - ja: この設計、次のミーティングで議論しましょう。
+        en: Let's discuss this design in the next meeting.
+        blank: discuss
+      - ja: スコープについては、まだ十分に議論できていません。
+        en: We haven't discussed the scope enough yet.
+        blank: discussed
+
+  - id: defect
+    ja: 不具合
+    ja_reading: ふぐあい
+    en: defect, bug
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: ちょっと不具合があるので、今日中に直します。
+        en: There are some defects, so I'll fix them by the end of the day.
+        blank: defects
+      - ja: 本番で不具合が見つかりました。
+        en: We found a bug in production.
+        blank: bug
+      - ja: この不具合は、決済フローに影響しますか。
+        en: Does this defect affect the payment flow?
+        blank: defect
+
+  - id: smooth
+    ja: 順調
+    ja_reading: じゅんちょう
+    en: smooth
+    pos: noun/na-adjective
+    lists: [2]
+    examples:
+      - ja: これは、順調に進んでいます。
+        en: This is going smoothly.
+        blank: smoothly
+      - ja: マイグレーションは順調ですか。
+        en: Is the migration going smoothly?
+        blank: smoothly
+      - ja: リリースは順調で、ロールバックは不要でした。
+        en: The release was smooth, so we didn't need to roll back.
+        blank: smooth
+
+  - id: amount
+    ja: 量
+    ja_reading: りょう
+    en: amount
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: タスクの量が多すぎます。
+        en: The amount of remaining work is too large.
+        blank: amount
+      - ja: ログの量が増えて、ディスクを圧迫しています。
+        en: The amount of logs has grown and is filling up the disk.
+        blank: amount
+      - ja: レビューの量を、スプリントごとに測っています。
+        en: We measure the amount of reviews per sprint.
+        blank: amount
+
+  - id: concrete
+    ja: 具体的
+    ja_reading: ぐたいてき
+    en: concrete
+    pos: na-adjective
+    lists: [2]
+    examples:
+      - ja: 具体的にどんなインシデントでしたか。
+        en: Could you explain the incident more concretely?
+        blank: concretely
+      - ja: 次のアクションを、もっと具体的にしましょう。
+        en: Let's make the next actions more concrete.
+        blank: concrete
+      - ja: 具体的な例がないと、要件がイメージしにくいです。
+        en: It's hard to picture the requirements without a concrete example.
+        blank: concrete
+
+  - id: situation
+    ja: 状況
+    ja_reading: じょうきょう
+    en: situation
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: QAのリソースが厳しい状況です。
+        en: We're in a tough situation in terms of QA resources.
+        blank: situation
+      - ja: 障害の状況を、チャンネルで共有します。
+        en: I'll share the incident situation in the channel.
+        blank: situation
+      - ja: 今の状況では、スコープを減らした方がいいです。
+        en: In the current situation, we should reduce the scope.
+        blank: situation
+
+  - id: present-situation
+    ja: 現状
+    ja_reading: げんじょう
+    en: present situation
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: 現状を説明します。
+        en: I'll explain the present situation.
+        blank: present situation
+      - ja: 現状では、このAPIは認証なしです。
+        en: In the present situation, this API has no authentication.
+        blank: present situation
+      - ja: 現状を踏まえると、リリースは来週にずらした方がいいです。
+        en: Given the present situation, we should postpone the release to next week.
+        blank: present situation
+
+  - id: progress-check
+    ja: 進捗確認
+    ja_reading: しんちょくかくにん
+    en: progress check
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: まずは、進捗確認をしましょう。
+        en: Let's start with a progress check.
+        blank: progress check
+      - ja: スタンドアップで、進捗確認をします。
+        en: We'll do a progress check in standup.
+        blank: progress check
+      - ja: 週の半ばにも、短い進捗確認を入れましょう。
+        en: Let's add a short progress check mid-week as well.
+        blank: progress check
+
+  - id: priority
+    ja: 優先順位
+    ja_reading: ゆうせんじゅんい
+    en: priority
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: 優先順位を決めたほうがいいと思います。
+        en: I think we should decide the priority.
+        blank: priority
+      - ja: このバグの優先順位は、どのくらいですか。
+        en: What's the priority of this bug?
+        blank: priority
+      - ja: 優先順位を変えるなら、PdMに確認してください。
+        en: If we change the priority, please check with the PM.
+        blank: priority
+
+  - id: remain
+    ja: 残る
+    ja_reading: のこる
+    en: remain
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: 残っているチケットはありますか。
+        en: Are there any tickets remaining?
+        blank: remaining
+      - ja: 未解決のコメントが、まだ2件残っています。
+        en: Two unresolved comments still remain.
+        blank: remain
+      - ja: リスクが残るなら、フィーチャーフラグで出しましょう。
+        en: If any risk remains, let's ship it behind a feature flag.
+        blank: remains
+
+  - id: initiate
+    ja: 着手する
+    ja_reading: ちゃくしゅする
+    en: initiate
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: それって、もう着手してますか。
+        en: Have you already initiated it?
+        blank: initiated
+      - ja: 認証まわりのリファクタには、来スプリントで着手します。
+        en: We'll initiate the auth refactor in the next sprint.
+        blank: initiate
+      - ja: 調査には着手したものの、まだ修正には入れていません。
+        en: We've initiated the investigation, but we haven't started the fix yet.
+        blank: initiated
+
+  - id: adjust
+    ja: 調整する
+    ja_reading: ちょうせいする
+    en: adjust
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: 最近忙しすぎるので、タスクの量を調整したほうがいいと思っています。
+        en: I'm thinking I should adjust my workload because I've been too busy these days.
+        blank: adjust
+      - ja: リトライ回数を調整して、負荷を下げましょう。
+        en: Let's adjust the retry count to reduce the load.
+        blank: adjust
+      - ja: リリース日は、QAの空きに合わせて調整します。
+        en: We'll adjust the release date to match QA availability.
+        blank: adjust
+
+  - id: understanding
+    ja: 認識
+    ja_reading: にんしき
+    en: recognition, understanding
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: 全員で認識を合わせたいです。
+        en: I'd like to make sure everyone has the same understanding.
+        blank: understanding
+      - ja: 私の認識では、このAPIは内部向けです。
+        en: My understanding is that this API is internal-only.
+        blank: understanding
+      - ja: 障害対応の役割分担について、認識を揃えましょう。
+        en: Let's align our understanding of the incident-response roles.
+        blank: understanding
+
+  - id: be-out-of-alignment
+    ja: ずれる
+    ja_reading: ずれる
+    en: be out of alignment
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: 認識がずれてないか確認したいです。
+        en: I'd like to make sure we're not out of alignment.
+        blank: out of alignment
+      - ja: 見積もりと実績が、かなりずれています。
+        en: The estimate and the actuals are quite out of alignment.
+        blank: out of alignment
+      - ja: 仕様が実装とずれているので、ドキュメントを直します。
+        en: The spec is out of alignment with the implementation, so I'll fix the docs.
+        blank: out of alignment
+
+  - id: change
+    ja: 変更する
+    ja_reading: へんこうする
+    en: change
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: スケジュールが変更しています。
+        en: The schedule has been changed.
+        blank: changed
+      - ja: スキーマを変更する前に、互換性を確認してください。
+        en: Please check compatibility before you change the schema.
+        blank: change
+      - ja: 要件が途中で変更されたので、見積もりをやり直します。
+        en: The requirements were changed midway, so I'll redo the estimate.
+        blank: changed
+
+  - id: start
+    ja: 開始する
+    ja_reading: かいしする
+    en: start
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: 来週からキャンペーンが開始します。
+        en: We will start a campaign next week.
+        blank: start
+      - ja: ロールアウトは、今夜22時に開始します。
+        en: The rollout will start at 10 p.m. tonight.
+        blank: start
+      - ja: 負荷試験は、もう開始していますか。
+        en: Has the load test already started?
+        blank: started
+
+  - id: move-up
+    ja: 前倒しする
+    ja_reading: まえだおしする
+    en: reschedule to an earlier time, move up
+    pos: verb
+    lists: [2]
+    examples:
+      - ja: このプロジェクトは、前倒しで進めましょう。
+        en: Let's move up this project.
+        blank: move up
+      - ja: リリースを1週間前倒しできますか。
+        en: Can we move the release up by a week?
+        blank: move the release up
+      - ja: 前倒しすると、QAの時間が足りなくなります。
+        en: If we reschedule it to an earlier time, QA won't have enough time.
+        blank: reschedule it to an earlier time
+
+  - id: sometime-after
+    ja: 以降
+    ja_reading: いこう
+    en: sometime after
+    pos: noun
+    lists: [2]
+    examples:
+      - ja: コードレビューは、来週以降の予定です。
+        en: We're planning to do a code review sometime after next week.
+        blank: sometime after
+      - ja: それは金曜以降に対応します。
+        en: We'll handle that sometime after Friday.
+        blank: sometime after
+      - ja: このフラグは、次のリリース以降に削除できます。
+        en: We can remove this flag sometime after the next release.
+        blank: sometime after
+
+  - id: deadline
+    ja: 締切
+    ja_reading: しめきり
+    en: deadline, due date
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: 締切はいつですか。
+        en: When is the due date?
+        blank: due date
+      - ja: このチケットの締切は金曜です。
+        en: The deadline for this ticket is Friday.
+        blank: deadline
+      - ja: 締切を延ばさないと、品質を保てません。
+        en: We can't keep the quality unless we extend the deadline.
+        blank: deadline
+
+  - id: ahead
+    ja: 先に
+    ja_reading: さきに
+    en: ahead
+    pos: adverb
+    lists: [3]
+    examples:
+      - ja: 他のミーティングがあって遅れるので、先に始めてください。
+        en: Please go ahead with the meeting without me as I'm running late due to another meeting.
+        blank: go ahead
+      - ja: 先にステージングへ出して、本番は明日にします。
+        en: Let's deploy to staging ahead of production, and ship prod tomorrow.
+        blank: ahead of
+      - ja: 質問があれば、先にチャットへ書いておいてください。
+        en: If you have questions, please write them in chat ahead of time.
+        blank: ahead of time
+
+  - id: in-advance
+    ja: 事前に
+    ja_reading: じぜんに
+    en: in advance
+    pos: adverb
+    lists: [3]
+    examples:
+      - ja: 話したいトピックは、事前に書いておいてください。
+        en: Please write the topics you want to talk about in advance.
+        blank: in advance
+      - ja: メンテは、事前にステータスページで告知します。
+        en: We'll announce the maintenance on the status page in advance.
+        blank: in advance
+      - ja: 権限が必要なら、事前に申請してください。
+        en: If you need extra permissions, please request them in advance.
+        blank: in advance
+
+  - id: early
+    ja: 早めに
+    ja_reading: はやめに
+    en: early
+    pos: adverb
+    lists: [3]
+    examples:
+      - ja: これは来週リリースなので、早めにやった方がいいと思います。
+        en: I think we should work on this early because we will release it next week.
+        blank: early
+      - ja: レビューは早めにお願いします。
+        en: Please review this early.
+        blank: early
+      - ja: リスクがある変更は、スプリントの早めに入れましょう。
+        en: Let's land risky changes early in the sprint.
+        blank: early
+
+  - id: temporarily
+    ja: 一旦
+    ja_reading: いったん
+    en: temporarily, for a moment
+    pos: adverb
+    lists: [3]
+    examples:
+      - ja: 一旦、このやり方で進めましょう。
+        en: Let's move forward in this way, temporarily.
+        blank: temporarily
+      - ja: 一旦ロールバックして、原因を切り分けます。
+        en: Let's roll back for a moment and isolate the cause.
+        blank: for a moment
+      - ja: フラグを一旦オフにして、影響を止めます。
+        en: I'll turn the flag off temporarily to stop the impact.
+        blank: temporarily
+
+  - id: environment
+    ja: 環境
+    ja_reading: かんきょう
+    en: environment
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: すべてテスト環境に反映しました。
+        en: Everything has been reflected in the test environment.
+        blank: environment
+      - ja: 本番環境とステージング環境で、設定が違います。
+        en: The configuration differs between the production and staging environments.
+        blank: environments
+      - ja: どの環境で再現しますか。
+        en: In which environment can you reproduce it?
+        blank: environment
+
+  - id: business-task
+    ja: 業務
+    ja_reading: ぎょうむ
+    en: business, task
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: ネット環境が悪くて、業務に支障が出ています。
+        en: The internet environment here is bad, which is hindering our business.
+        blank: business
+      - ja: この業務は、サポートチームの担当です。
+        en: This task belongs to the support team.
+        blank: task
+      - ja: 月末は業務が多いので、リリースを避けたいです。
+        en: We have a lot of business at month-end, so I'd rather avoid a release.
+        blank: business
+
+  - id: feature
+    ja: 機能
+    ja_reading: きのう
+    en: feature, function
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: どんな機能があったら、もっとお客様のためになると思う？
+        en: What features do you think would be more beneficial for our customers?
+        blank: features
+      - ja: この機能は、フィーチャーフラグの裏にあります。
+        en: This feature is behind a feature flag.
+        blank: feature
+      - ja: 検索機能が、モバイルで動いていません。
+        en: The search function isn't working on mobile.
+        blank: function
+
+  - id: operation
+    ja: 運用
+    ja_reading: うんよう
+    en: operation
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: これは、ちゃんと運用ができていません。
+        en: That operation is not working properly.
+        blank: operation
+      - ja: 運用を楽にするために、ランブックを書きました。
+        en: I wrote a runbook to make the operation easier.
+        blank: operation
+      - ja: このジョブの運用は、どのチームが持っていますか。
+        en: Which team owns the operation of this job?
+        blank: operation
+
+  - id: point-of-view
+    ja: 観点
+    ja_reading: かんてん
+    en: point of view
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: QAの観点からすると、このタスクの優先順位は低いです。
+        en: From QA's point of view, the priority of this task is low.
+        blank: point of view
+      - ja: セキュリティの観点でも、レビューしてください。
+        en: Please review it from a security point of view as well.
+        blank: point of view
+      - ja: コストの観点だと、この案は厳しいです。
+        en: From a cost point of view, this option is tough.
+        blank: point of view
+
+  - id: important
+    ja: 重要
+    ja_reading: じゅうよう
+    en: important
+    pos: noun/na-adjective
+    lists: [3]
+    examples:
+      - ja: どれが一番重要な問題ですか。
+        en: Which one is the most important issue?
+        blank: important
+      - ja: ロールバック手順を残すのは重要です。
+        en: It's important to keep a rollback procedure.
+        blank: important
+      - ja: 今は、ログの欠損が一番重要です。
+        en: Right now, the missing logs are the most important problem.
+        blank: important
+
+  - id: screen-share
+    ja: 画面共有
+    ja_reading: がめんきょうゆう
+    en: screen share
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: 画面共有してもらえる？
+        en: Can you share your screen?
+        blank: share your screen
+      - ja: 画面共有した方が、デバッグが早いです。
+        en: A screen share would make debugging faster.
+        blank: screen share
+      - ja: 画面共有が止まったので、もう一度お願いします。
+        en: The screen share stopped, so could you start it again?
+        blank: screen share
+
+  - id: deployment
+    ja: デプロイ
+    ja_reading: デプロイ
+    en: deployment
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: 昨日、デプロイ完了しました。
+        en: I completed the deployment yesterday.
+        blank: deployment
+      - ja: デプロイは、ピーク時間を避けてください。
+        en: Please avoid a deployment during peak hours.
+        blank: deployment
+      - ja: カナリアデプロイで、エラー率が上がっています。
+        en: The error rate is going up during the canary deployment.
+        blank: deployment
+
+  - id: operation-check
+    ja: 動作確認
+    ja_reading: どうさかくにん
+    en: checking or testing operation
+    pos: noun
+    lists: [3]
+    examples:
+      - ja: 動作確認はいつしますか。
+        en: When are you going to test the operation?
+        blank: test the operation
+      - ja: デプロイ後に、動作確認をお願いします。
+        en: Please do an operation check after the deployment.
+        blank: operation check
+      - ja: 動作確認が終わるまで、フラグはオンにしないでください。
+        en: Don't turn the flag on until we finish checking the operation.
+        blank: checking the operation
+
+  - id: implement
+    ja: 実装する
+    ja_reading: じっそうする
+    en: implement
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: これは来週実装します。
+        en: We're going to implement this next week.
+        blank: implement
+      - ja: リトライは、もう実装済みです。
+        en: Retries have already been implemented.
+        blank: implemented
+      - ja: この要件を、今のAPIで実装できますか。
+        en: Can we implement this requirement with the current API?
+        blank: implement
+
+  - id: be-stable
+    ja: 安定している
+    ja_reading: あんていしている
+    en: be stable
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: バグを直したので、今は安定しています。
+        en: It's stable now since I've resolved the bugs.
+        blank: stable
+      - ja: エラー率が下がって、サービスは安定しています。
+        en: The error rate dropped, and the service is stable.
+        blank: stable
+      - ja: カナリアが安定しているので、全体に広げます。
+        en: The canary is stable, so we'll roll it out fully.
+        blank: stable
+
+  - id: occur
+    ja: 発生する
+    ja_reading: はっせいする
+    en: occur
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: オンコールのときに、問題が発生しました。
+        en: An issue occurred when I was on call.
+        blank: occurred
+      - ja: 同じエラーが、夜間バッチでも発生しています。
+        en: The same error is occurring in the nightly batch as well.
+        blank: occurring
+      - ja: デプロイ中にタイムアウトが発生したら、自動でロールバックします。
+        en: If a timeout occurs during the deploy, we'll roll back automatically.
+        blank: occurs
+
+  - id: deal-with
+    ja: 対応する
+    ja_reading: たいおうする
+    en: deal with, handle
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: これは他のチームが対応してくれるので、うちのチームはしなくていいです。
+        en: For this issue, our team doesn't need to deal with it since another team will.
+        blank: deal with
+      - ja: このアラートは、オンコールが対応します。
+        en: The on-call engineer will handle this alert.
+        blank: handle
+      - ja: 週末に発生した障害は、もう対応済みですか。
+        en: Has the weekend incident already been dealt with?
+        blank: dealt with
+
+  - id: delete
+    ja: 削除する
+    ja_reading: さくじょする
+    en: delete
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: Jiraに同じ内容のチケットが2つあるので、こっちは削除しますね。
+        en: I'll delete this because there are two tickets with the same content on Jira.
+        blank: delete
+      - ja: 使っていないフィーチャーフラグは削除しましょう。
+        en: Let's delete unused feature flags.
+        blank: delete
+      - ja: 本番データは、承認なしで削除しないでください。
+        en: Don't delete production data without approval.
+        blank: delete
+
+  - id: save
+    ja: 保存する
+    ja_reading: ほぞんする
+    en: save
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: すみません、修正したあと、保存し忘れました。
+        en: Sorry, I forgot to save it after I fixed it.
+        blank: save
+      - ja: 設定を変えたら、保存してから再起動してください。
+        en: After you change the settings, save them before restarting.
+        blank: save
+      - ja: 下書きは自動保存されますか。
+        en: Are drafts saved automatically?
+        blank: saved
+
+  - id: consider
+    ja: 検討する
+    ja_reading: けんとうする
+    en: consider, think about
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: ロールバックのやり方は今検討中です。
+        en: We're now thinking about how to roll it back.
+        blank: thinking about
+      - ja: キャッシュ導入は、来四半期に検討します。
+        en: We'll consider introducing a cache next quarter.
+        blank: consider
+      - ja: 別案も検討した方がいいです。
+        en: We should consider an alternative as well.
+        blank: consider
+
+  - id: be-related-to
+    ja: 関係する
+    ja_reading: かんけいする
+    en: be related to
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: このチケットに関係してる人って、誰だっけ？
+        en: Who's the person related to this ticket?
+        blank: related to
+      - ja: この障害は、昨日のデプロイに関係しています。
+        en: This incident is related to yesterday's deployment.
+        blank: related to
+      - ja: 関係するチームにも、変更を共有してください。
+        en: Please share the change with the related teams as well.
+        blank: related
+
+  - id: continue
+    ja: 継続する
+    ja_reading: けいぞくする
+    en: continue
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: weekly syncミーティングは、今後も継続していきましょう。
+        en: Let's continue the weekly sync meetings as we've been doing.
+        blank: continue
+      - ja: カナリアは問題ないので、ロールアウトを継続します。
+        en: The canary looks fine, so we'll continue the rollout.
+        blank: continue
+      - ja: この実験は、来スプリントも継続しますか。
+        en: Will we continue this experiment next sprint as well?
+        blank: continue
+
+  - id: measure
+    ja: 測る
+    ja_reading: はかる
+    en: measure
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: この目標を達成したかどうかを、どうやって測りますか。
+        en: How do you measure if you've achieved your goal or not?
+        blank: measure
+      - ja: レイテンシは、p99で測っています。
+        en: We measure latency at p99.
+        blank: measure
+      - ja: 効果を測らないと、フラグを残すべきかわかりません。
+        en: Without measuring the impact, we can't tell whether to keep the flag.
+        blank: measuring
+
+  - id: search
+    ja: 検索する
+    ja_reading: けんさくする
+    en: search
+    pos: verb
+    lists: [3]
+    examples:
+      - ja: この画面は検索しにくいですね。
+        en: This screen layout makes it difficult to search.
+        blank: search
+      - ja: ログを検索して、エラーの初出を探します。
+        en: I'll search the logs to find when the error first appeared.
+        blank: search
+      - ja: チケット番号で検索できますか。
+        en: Can we search by ticket number?
+        blank: search
+
+  - id: period
+    ja: 時期
+    ja_reading: じき
+    en: period, season
+    pos: noun
+    lists: [4]
+    examples:
+      - ja: リリースの時期は、調整中です。
+        en: The release period is being adjusted.
+        blank: period
+      - ja: セールの時期は、デプロイを止めます。
+        en: We'll freeze deploys during the sale season.
+        blank: season
+      - ja: 移行の時期を、来四半期にずらせますか。
+        en: Can we shift the migration period to next quarter?
+        blank: period
+
+  - id: undecided
+    ja: 未確定
+    ja_reading: みかくてい
+    en: undecided
+    pos: noun/na-adjective
+    lists: [4]
+    examples:
+      - ja: スケジュールは未確定です。
+        en: The schedule is still undecided.
+        blank: undecided
+      - ja: 担当チームは未確定なので、キックオフは待ってください。
+        en: The owning team is undecided, so please wait on the kickoff.
+        blank: undecided
+      - ja: 未確定の要件は、バックログに分けておきましょう。
+        en: Let's separate the undecided requirements into the backlog.
+        blank: undecided
+
+  - id: shortage
+    ja: 不足
+    ja_reading: ふそく
+    en: shortage, lack of
+    pos: noun
+    lists: [4]
+    examples:
+      - ja: チーム内のコミュニケーション不足が、問題になっています。
+        en: The lack of communication among team members is becoming a problem.
+        blank: lack of
+      - ja: QAリソースの不足で、リリースが遅れそうです。
+        en: We're likely to miss the release because of a shortage of QA resources.
+        blank: shortage
+      - ja: テスト不足が、今回の障害の原因です。
+        en: A lack of tests caused this incident.
+        blank: lack of
+
+  - id: room-to-spare
+    ja: 余裕
+    ja_reading: よゆう
+    en: time/money/space to spare
+    pos: noun
+    lists: [4]
+    examples:
+      - ja: 今月はリリースが多くて、みんな余裕があんまりない。
+        en: We don't have time to spare since we have a lot of releases this month.
+        blank: time to spare
+      - ja: バッファに余裕がないので、スコープを減らしましょう。
+        en: There's no room to spare in the buffer, so let's cut scope.
+        blank: room to spare
+      - ja: 今は余裕があるので、リファクタを進められます。
+        en: We have some room to spare now, so we can work on the refactor.
+        blank: room to spare
+
+  - id: normal
+    ja: 正常
+    ja_reading: せいじょう
+    en: normal, normally
+    pos: noun/na-adjective
+    lists: [4]
+    examples:
+      - ja: システムが正常に動いてないので、今日中に鈴木さんが確認する予定です。
+        en: Since the system isn't working normally, Suzuki-san is going to check on it today.
+        blank: normally
+      - ja: エラー率は正常に戻りました。
+        en: The error rate is back to normal.
+        blank: normal
+      - ja: ヘルスチェックが正常になるまで、トラフィックを戻さないでください。
+        en: Don't send traffic back until the health check is normal.
+        blank: normal
+
+  - id: top-priority
+    ja: 最優先
+    ja_reading: さいゆうせん
+    en: top priority
+    pos: noun
+    lists: [4]
+    examples:
+      - ja: これはリリースが来週なので、最優先で進めたほうがいいと思います。
+        en: I think it's better to make this the top priority because the release is next week.
+        blank: top priority
+      - ja: データ不整合の調査を、最優先にしてください。
+        en: Please treat the data-inconsistency investigation as the top priority.
+        blank: top priority
+      - ja: 今の最優先は、障害からの復旧です。
+        en: Our top priority right now is recovering from the incident.
+        blank: top priority
+
+  - id: directly
+    ja: 直接
+    ja_reading: ちょくせつ
+    en: directly
+    pos: adverb
+    lists: [4]
+    examples:
+      - ja: 困ったことがあったら、直接マネージャーに相談してください。
+        en: Please talk to your manager directly if you have any problems.
+        blank: directly
+      - ja: このサービスは、データベースに直接アクセスしています。
+        en: This service accesses the database directly.
+        blank: directly
+      - ja: ユーザーに直接影響する変更なので、カナリアにします。
+        en: We'll canary this because the change affects users directly.
+        blank: directly
+
+  - id: in-the-middle
+    ja: 途中
+    ja_reading: とちゅう
+    en: in the middle of, halfway
+    pos: noun
+    lists: [4]
+    examples:
+      - ja: 今、このチケットをやってる途中ですか。
+        en: Are you in the middle of working on this ticket?
+        blank: in the middle of
+      - ja: マイグレーションの途中で、ジョブが落ちました。
+        en: The job died in the middle of the migration.
+        blank: in the middle of
+      - ja: 実装は途中まで終わっているので、明日引き継げます。
+        en: The implementation is halfway done, so I can hand it over tomorrow.
+        blank: halfway
+
+  - id: process
+    ja: 処理
+    ja_reading: しょり
+    en: process, processing
+    pos: noun
+    lists: [4, 5]
+    notes: 元リストの list 4 と list 5 の両方に登場する。
+    examples:
+      - ja: 返金処理は、昨日完了しました。
+        en: I completed the refund process yesterday.
+        blank: process
+      - ja: 返金処理は、いつ完了しそうですか。
+        en: When do you think we'll finish processing the refund?
+        blank: processing
+      - ja: このバッチ処理は、ピーク時には回さないでください。
+        en: Don't run this batch process during peak hours.
+        blank: process
+
+  - id: concentrate
+    ja: 集中する
+    ja_reading: しゅうちゅうする
+    en: concentrate, be concentrated
+    pos: verb
+    notes: 作業に集中する、アクセスが集中する、の両方。
+    lists: [4]
+    examples:
+      - ja: サイトへのアクセスは、どの時間帯が一番集中しますか。
+        en: What time is access to the site most concentrated?
+        blank: concentrated
+      - ja: 午後は実装に集中したいので、ミーティングを午前に寄せてください。
+        en: I want to concentrate on implementation in the afternoon, so please keep meetings in the morning.
+        blank: concentrate on
+      - ja: 夜中にアクセスが集中して、サービスが一時的に落ちました。
+        en: The service went down temporarily late last night because traffic was concentrated.
+        blank: concentrated
+
+  - id: delay
+    ja: 遅延する
+    ja_reading: ちえんする
+    en: delay
+    pos: verb
+    lists: [4]
+    examples:
+      - ja: 昨日の夜、システムに遅延が発生しました。
+        en: A system delay happened last night.
+        blank: delay
+      - ja: キューが遅延しているので、ワーカーを増やします。
+        en: The queue is delayed, so I'll add more workers.
+        blank: delayed
+      - ja: デプロイが遅延したら、ステータスページを更新してください。
+        en: If the deployment is delayed, please update the status page.
+        blank: delayed
+
+  - id: work-on-task
+    ja: 作業をする
+    ja_reading: さぎょうをする
+    en: work
+    pos: verb
+    lists: [4]
+    examples:
+      - ja: 明日、バージョンアップする作業をします。
+        en: I'll work on updating this tomorrow.
+        blank: work on
+      - ja: 本番作業は、ペアでやってください。
+        en: Please do production work in pairs.
+        blank: work
+      - ja: この作業は、メンテウィンドウに入れましょう。
+        en: Let's put this work in the maintenance window.
+        blank: work
+
+  - id: be-in-charge-of
+    ja: 担当する
+    ja_reading: たんとうする
+    en: be responsible for, be in charge of
+    pos: verb
+    lists: [4]
+    examples:
+      - ja: この業務は、どこのチームが担当してるか知ってる？
+        en: Do you know which team is responsible for this work?
+        blank: responsible for
+      - ja: 決済APIは、私が担当しています。
+        en: I'm in charge of the payment API.
+        blank: in charge of
+      - ja: オンコール当番は、今週Kenさんが担当です。
+        en: Ken is in charge of on-call this week.
+        blank: in charge of
+
+  - id: add
+    ja: 追加する
+    ja_reading: ついかする
+    en: add
+    pos: verb
+    lists: [4]
+    examples:
+      - ja: 話したいトピックがある人は、議事録に追加しておいてくださいね。
+        en: Please add the topics you want to talk about to the notes.
+        blank: add
+      - ja: リトライを追加して、一時障害に強くします。
+        en: I'll add retries to make it more resilient to blips.
+        blank: add
+      - ja: スコープを追加するなら、何か落とす必要があります。
+        en: If we add scope, we need to drop something else.
+        blank: add
+
+  - id: propose
+    ja: 提案する
+    ja_reading: ていあんする
+    en: propose, suggest
+    pos: verb
+    lists: [4]
+    examples:
+      - ja: 何か提案がある人は、明日までに私にDMしてください。
+        en: If you want to suggest anything, please DM me by tomorrow.
+        blank: suggest
+      - ja: キャッシュ層の導入を提案します。
+        en: I'd like to propose introducing a cache layer.
+        blank: propose
+      - ja: 代替案を提案してもらえますか。
+        en: Could you propose an alternative?
+        blank: propose
+
+  - id: introduce
+    ja: 導入する
+    ja_reading: どうにゅうする
+    en: implement, introduce
+    pos: verb
+    notes: 元リストの英語は implement。新規ツールや仕組みを入れる文脈では introduce が自然。
+    lists: [4]
+    examples:
+      - ja: 新しいサービスを導入する時期はまだ決まってません。
+        en: The timing of introducing the new service hasn't been decided yet.
+        blank: introducing
+      - ja: 来四半期に、フィーチャーフラグ基盤を導入します。
+        en: We'll introduce a feature-flag platform next quarter.
+        blank: introduce
+      - ja: 新しい監視ツールは、すでに一部チームで導入されています。
+        en: The new monitoring tool has already been introduced in some teams.
+        blank: introduced
+
+  - id: go-down
+    ja: 落ちる
+    ja_reading: おちる
+    en: drop, go down
+    pos: verb
+    lists: [4]
+    examples:
+      - ja: 夜中にアクセスが集中して、サービスが一時的に落ちました。
+        en: The service went down temporarily late last night because of a spike in access.
+        blank: went down
+      - ja: プライマリDBが落ちたら、自動でフェイルオーバーします。
+        en: If the primary DB goes down, it will fail over automatically.
+        blank: goes down
+      - ja: エラー率が急に落ちたので、デプロイの影響を疑っています。
+        en: The error rate dropped suddenly, so I suspect the deploy.
+        blank: dropped
+
+  - id: move
+    ja: 移動する
+    ja_reading: いどうする
+    en: move, shift
+    pos: verb
+    lists: [4]
+    examples:
+      - ja: 今Q対応しないチケットは、次のSprintに移動しておきます。
+        en: Tickets that we won't deal with this quarter will be moved to the next sprint.
+        blank: moved
+      - ja: このミーティングを、午後に移動できますか。
+        en: Can we move this meeting to the afternoon?
+        blank: move
+      - ja: 負荷を別クラスタへ移動して、影響を止めます。
+        en: I'll shift the load to another cluster to stop the impact.
+        blank: shift
+
+  - id: schedule-conflict
+    ja: 被る
+    ja_reading: かぶる
+    en: have a schedule conflict
+    pos: verb
+    notes: カジュアル。
+    lists: [4]
+    examples:
+      - ja: すみません、他のミーティングと被ってるので、明日のスタンドアップに参加できません。
+        en: Sorry, I can't join tomorrow's standup because of a schedule conflict.
+        blank: schedule conflict
+      - ja: 1on1と障害対応が被りそうです。
+        en: My 1-on-1 is going to have a schedule conflict with incident response.
+        blank: schedule conflict
+      - ja: デプロイとメンテウィンドウが被らないようにしてください。
+        en: Please make sure the deploy doesn't have a schedule conflict with the maintenance window.
+        blank: schedule conflict
+
+  - id: leave-the-meeting
+    ja: ミーティングを抜ける
+    ja_reading: ミーティングをぬける
+    en: leave the meeting
+    pos: phrase
+    lists: [4]
+    examples:
+      - ja: すみません、次のミーティングがあるので、先に抜けますね。
+        en: Sorry, I need to leave the meeting now because I have another meeting.
+        blank: leave the meeting
+      - ja: 途中で抜けても大丈夫です。
+        en: It's fine if you leave the meeting early.
+        blank: leave the meeting
+      - ja: オンコール対応のため、このあと抜けます。
+        en: I'll leave the meeting after this for on-call work.
+        blank: leave the meeting
+
+  - id: quite
+    ja: けっこう
+    ja_reading: けっこう
+    en: quite
+    pos: adverb
+    lists: [4]
+    examples:
+      - ja: 来月はけっこう忙しくなると思うので、みなさん、今のうちにゆっくり休んでくださいね。
+        en: Please take it easy now since we're going to be quite busy next month.
+        blank: quite
+      - ja: このクエリは、けっこう重いです。
+        en: This query is quite heavy.
+        blank: quite
+      - ja: レビューコメントがけっこう残っているので、今日中はマージしない方がいいです。
+        en: There are quite a few review comments left, so we shouldn't merge today.
+        blank: quite
+
+  - id: barely
+    ja: ギリギリ
+    ja_reading: ギリギリ
+    en: at the last moment, barely
+    pos: adverb
+    lists: [4]
+    examples:
+      - ja: このチケットはギリギリになりそうですが、締切までに終わると思います。
+        en: It'll be really tight, but I think I'll just barely get the ticket done by the deadline.
+        blank: barely
+      - ja: デプロイウィンドウに、ギリギリ間に合いました。
+        en: We barely made the deploy window.
+        blank: barely
+      - ja: リリース直前のギリギリで入れるのはやめましょう。
+        en: Let's not land this at the last moment before the release.
+        blank: at the last moment
+
+  - id: basically
+    ja: 基本的に
+    ja_reading: きほんてきに
+    en: basically
+    pos: adverb
+    lists: [4]
+    examples:
+      - ja: 基本的に、来Qのみなさんのアサインは、今Qと変更ありません。
+        en: Basically, everyone's assignments won't change much from this quarter to next quarter.
+        blank: Basically
+      - ja: 基本的に、本番変更はPR経由です。
+        en: Basically, production changes go through a pull request.
+        blank: Basically
+      - ja: このアラートは、基本的に無視して大丈夫です。
+        en: You can basically ignore this alert.
+        blank: basically
+
+  - id: by-the-way
+    ja: ちなみに
+    ja_reading: ちなみに
+    en: also, in addition, by the way
+    pos: adverb
+    lists: [4]
+    examples:
+      - ja: ちなみに、いつぐらいまでにリリースの時期が決まるか、わかりますか。
+        en: Also, do you know when the release period will be decided?
+        blank: Also
+      - ja: ちなみに、ステージングでは再現しませんでした。
+        en: By the way, I couldn't reproduce it on staging.
+        blank: By the way
+      - ja: ちなみに、関連するダッシュボードも貼っておきます。
+        en: In addition, I'll paste the related dashboard.
+        blank: In addition
+
+  - id: perspective
+    ja: 視点
+    ja_reading: してん
+    en: point of view, perspective
+    pos: noun
+    lists: [4]
+    examples:
+      - ja: お客様視点で考えてみて。
+        en: Think about it from the customer's point of view.
+        blank: point of view
+      - ja: 運用の視点だと、この設計は複雑すぎます。
+        en: From an operations perspective, this design is too complex.
+        blank: perspective
+      - ja: 開発者視点だけでなく、サポート視点でも見ましょう。
+        en: Let's look at it from a support perspective, not only from a developer point of view.
+        blank: perspective
+
+  - id: small-talk
+    ja: 雑談
+    ja_reading: ざつだん
+    en: small talk, chat
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: まだ10分ぐらいあるので、ちょっと雑談でもしましょうか。
+        en: We still have about 10 minutes left, shall we just chat?
+        blank: chat
+      - ja: キックオフの最初に、短い雑談を入れています。
+        en: We start kickoffs with a bit of small talk.
+        blank: small talk
+      - ja: 雑談は最後にして、先にブロッカーを確認しましょう。
+        en: Let's check blockers first and leave the small talk for the end.
+        blank: small talk
+
+  - id: phase
+    ja: 段階
+    ja_reading: だんかい
+    en: phase
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: 今は、テストの準備をしている段階です。
+        en: I'm in the preparation phase of the test now.
+        blank: phase
+      - ja: 移行は、読み取り専用の段階から始めます。
+        en: We'll start the migration from a read-only phase.
+        blank: phase
+      - ja: この段階では、まだ公開しない方がいいです。
+        en: We shouldn't make it public at this phase.
+        blank: phase
+
+  - id: existing
+    ja: 既存
+    ja_reading: きぞん
+    en: existing
+    pos: noun/adjective
+    lists: [5]
+    examples:
+      - ja: 既存のソースを見て、考えてみます。
+        en: I'll check the existing sources and then think about it.
+        blank: existing
+      - ja: 既存APIを壊さないように、フィールドは追加だけにします。
+        en: To avoid breaking the existing API, we'll only add fields.
+        blank: existing
+      - ja: 既存のアラートと重複していないか確認してください。
+        en: Please check that it doesn't overlap with existing alerts.
+        blank: existing
+
+  - id: case
+    ja: 事例
+    ja_reading: じれい
+    en: case
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: 先週、それに似た事例がありました。
+        en: There was a similar case last week.
+        blank: case
+      - ja: 過去の障害事例を、ポストモーテムから探します。
+        en: I'll look for past incident cases in the postmortems.
+        blank: cases
+      - ja: この事例を、チームのナレッジに残しましょう。
+        en: Let's keep this case in the team's knowledge base.
+        blank: case
+
+  - id: quality
+    ja: 品質
+    ja_reading: ひんしつ
+    en: quality
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: リリースを早めると、QAの品質を保つのは難しくなると思います。
+        en: I think it'll be difficult to maintain the QA quality if we move the release date up.
+        blank: quality
+      - ja: テストを増やして、品質を上げましょう。
+        en: Let's add more tests to improve the quality.
+        blank: quality
+      - ja: 品質を落とさずに、スコープを減らすのが先です。
+        en: Cutting scope comes first, without lowering the quality.
+        blank: quality
+
+  - id: fault
+    ja: 障害
+    ja_reading: しょうがい
+    en: fault, system error
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: 最近、障害が多く発生している。
+        en: A lot of system errors have been happening these days.
+        blank: system errors
+      - ja: 昨夜の障害で、決済が30分止まりました。
+        en: Last night's fault stopped payments for 30 minutes.
+        blank: fault
+      - ja: 障害の一次報告は、5分以内に出してください。
+        en: Please send the first incident report for the fault within 5 minutes.
+        blank: fault
+
+  - id: critical
+    ja: クリティカル
+    ja_reading: クリティカル
+    en: critical
+    pos: na-adjective
+    lists: [5]
+    examples:
+      - ja: 今のところ、クリティカルな障害は起きてません。
+        en: There are no critical failures yet.
+        blank: critical
+      - ja: 決済はクリティカルなパスなので、慎重に出します。
+        en: Payments are a critical path, so we'll ship carefully.
+        blank: critical
+      - ja: このバグはクリティカルですか、それとも軽微ですか。
+        en: Is this bug critical, or is it minor?
+        blank: critical
+
+  - id: behavior
+    ja: 挙動
+    ja_reading: きょどう
+    en: behavior
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: ちょっと待って、Chromeの挙動がおかしい。
+        en: Hold on, Chrome is acting weird.
+        blank: acting
+      - ja: リトライの挙動を、ドキュメントに書いてください。
+        en: Please document the retry behavior.
+        blank: behavior
+      - ja: キャッシュを入れると、このAPIの挙動が変わります。
+        en: Adding a cache will change this API's behavior.
+        blank: behavior
+
+  - id: thing-casual
+    ja: やつ
+    ja_reading: やつ
+    en: thing
+    pos: noun
+    notes: カジュアル。対象をぼかして指すとき。
+    lists: [5]
+    examples:
+      - ja: 来週QAする予定のやつ、ある？
+        en: Is there something you plan to do QA for next week?
+        blank: something
+      - ja: 昨日話してたやつ、もう直しました。
+        en: I already fixed that thing we talked about yesterday.
+        blank: thing
+      - ja: アラートのやつ、チャンネルに貼ってもらえますか。
+        en: Can you paste that alert thing in the channel?
+        blank: thing
+
+  - id: create
+    ja: 作成する
+    ja_reading: さくせいする
+    en: make, create
+    pos: verb
+    notes: ドキュメントや計画を作る文脈。
+    lists: [5]
+    examples:
+      - ja: リリースまでのスケジュールを作成したので、まだ見てない人は今日中に確認してください。
+        en: I've made a schedule for the next release, so please check it by the end of today if you haven't.
+        blank: made
+      - ja: ランブックを作成して、オンコールに渡します。
+        en: I'll create a runbook and hand it to the on-call rotation.
+        blank: create
+      - ja: 設計ドキュメントは、誰が作成しますか。
+        en: Who will create the design doc?
+        blank: create
+
+  - id: design
+    ja: 設計する
+    ja_reading: せっけいする
+    en: plan, design
+    pos: verb
+    lists: [5]
+    examples:
+      - ja: ABテストを設計するときの注意点については、ここを読んどいてください。
+        en: Please check here for the important points about planning AB tests.
+        blank: planning
+      - ja: 新しいAPIを設計する前に、既存の契約を確認します。
+        en: I'll review the existing contracts before we design the new API.
+        blank: design
+      - ja: このワークフローは、障害を想定して設計されていますか。
+        en: Was this workflow designed with failures in mind?
+        blank: designed
+
+  - id: roll-out
+    ja: 展開する
+    ja_reading: てんかいする
+    en: expand, roll out, share with
+    pos: verb
+    notes: 資料を展開する（共有する）と、機能を展開する（roll out）の両方。
+    lists: [5]
+    examples:
+      - ja: この資料は、全メンバーに展開されています。
+        en: This document is now open to everyone.
+        blank: open to
+      - ja: 新しいダッシュボードを、全チームに展開しました。
+        en: We've rolled out the new dashboard to every team.
+        blank: rolled out
+      - ja: この変更は、まず1リージョンに展開します。
+        en: We'll roll out this change to one region first.
+        blank: roll out
+
+  - id: decide-details
+    ja: 詰める
+    ja_reading: つめる
+    en: decide details
+    pos: verb
+    lists: [5]
+    examples:
+      - ja: この件、もう少し詰めた方がいいですね。
+        en: We should think about this more in order to decide the details.
+        blank: decide the details
+      - ja: エラーハンドリングの方針を、今日中に詰めましょう。
+        en: Let's decide the details of the error-handling policy today.
+        blank: decide the details
+      - ja: まだ移行手順が詰まっていないので、見積もりは粗いです。
+        en: The estimate is rough because we haven't decided the details of the migration steps yet.
+        blank: decided the details
+
+  - id: delegate
+    ja: 任せる
+    ja_reading: まかせる
+    en: delegate, leave something with someone
+    pos: verb
+    lists: [5]
+    examples:
+      - ja: このプロジェクトは、佐藤さんに任せました。
+        en: I've delegated this project to Sato-san.
+        blank: delegated
+      - ja: アラート設計は、SREに任せましょう。
+        en: Let's leave the alert design with the SRE team.
+        blank: leave
+      - ja: この調査、任せて大丈夫ですか。
+        en: Can I delegate this investigation to you?
+        blank: delegate
+
+  - id: estimate
+    ja: 見積もる
+    ja_reading: みつもる
+    en: estimate
+    pos: verb
+    lists: [5]
+    examples:
+      - ja: 見積もると、だいたいトータルで2ヶ月かかります。
+        en: I estimate it will take about 2 months in total.
+        blank: estimate
+      - ja: 工数を見積もる前に、不明点を洗い出しましょう。
+        en: Let's list the unknowns before we estimate the effort.
+        blank: estimate
+      - ja: この見積もりは、まだかなり粗いです。
+        en: This estimate is still quite rough.
+        blank: estimate
+
+  - id: link
+    ja: 紐づく
+    ja_reading: ひもづく
+    en: link, be associated with
+    pos: verb
+    lists: [5]
+    examples:
+      - ja: この情報は、お客様IDに紐づいています。
+        en: This information is linked to the customer ID.
+        blank: linked to
+      - ja: このトレースは、どのデプロイに紐づきますか。
+        en: Which deploy is this trace linked to?
+        blank: linked to
+      - ja: チケットがPRに紐づいていないので、追跡しにくいです。
+        en: It's hard to trace because the ticket isn't linked to a pull request.
+        blank: linked to
+
+  - id: like-this
+    ja: 感じ
+    ja_reading: かんじ
+    en: like [something]
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: こんな感じです。
+        en: It's like this.
+        blank: like this
+      - ja: エラーメッセージは、こんな感じで出ています。
+        en: The error message looks like this.
+        blank: like this
+      - ja: タイムラインは、こんな感じで共有すれば十分です。
+        en: Sharing the timeline like this should be enough.
+        blank: like this
+
+  - id: besides
+    ja: 以外
+    ja_reading: いがい
+    en: besides, except
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: ここに書いてあるトピック以外に、何か話したいことありますか。
+        en: Is there anything else you want to talk about besides the topics written here?
+        blank: besides
+      - ja: 決済以外のAPIは、今回の影響を受けません。
+        en: APIs except payments are not affected this time.
+        blank: except
+      - ja: オンコール以外の人は、インシデントチャンネルから外れても大丈夫です。
+        en: Anyone besides the on-call can leave the incident channel.
+        blank: besides
+
+  - id: at-the-same-time
+    ja: 同時に
+    ja_reading: どうじに
+    en: at the same time, simultaneously
+    pos: adverb
+    lists: [5]
+    examples:
+      - ja: 同時に担当できるプロジェクトの数には限界があります。
+        en: There's a limit to the number of projects we can handle at the same time.
+        blank: at the same time
+      - ja: マイグレーションとスキーマ変更は、同時にやらないでください。
+        en: Please don't run the migration and the schema change simultaneously.
+        blank: simultaneously
+      - ja: 同じキーを同時に更新すると、競合します。
+        en: Updating the same key at the same time will cause a conflict.
+        blank: at the same time
+
+  - id: after-all
+    ja: 結局
+    ja_reading: けっきょく
+    en: after all, in the end
+    pos: adverb
+    lists: [5]
+    examples:
+      - ja: これを解決しておかないと、結局、リリース直前に問題が出てくる。
+        en: If we don't solve this problem, in the end it'll happen just before the release.
+        blank: in the end
+      - ja: 結局、ロールバックした方が早いです。
+        en: After all, rolling back will be faster.
+        blank: After all
+      - ja: 議論したけど、結局もともとの案に戻しました。
+        en: We discussed it, but in the end we went back to the original proposal.
+        blank: in the end
+
+  - id: mostly
+    ja: ほぼ
+    ja_reading: ほぼ
+    en: mostly
+    pos: adverb
+    lists: [5]
+    examples:
+      - ja: このチケットはほぼ終わりました。
+        en: I've mostly finished this ticket.
+        blank: mostly
+      - ja: 移行はほぼ完了で、残は検証だけです。
+        en: The migration is mostly done; only verification remains.
+        blank: mostly
+      - ja: アラートはほぼ誤検知なので、しきい値を見直します。
+        en: The alerts are mostly false positives, so I'll revise the threshold.
+        blank: mostly
+
+  - id: in-the-first-place
+    ja: そもそも
+    ja_reading: そもそも
+    en: in the first place
+    pos: adverb
+    lists: [5]
+    examples:
+      - ja: そもそも、このミーティングの目的はなんでしたっけ？
+        en: What was the point of this meeting in the first place?
+        blank: in the first place
+      - ja: そもそも、このAPIを公開する必要はありますか。
+        en: Do we need to expose this API in the first place?
+        blank: in the first place
+      - ja: そもそも要件が違うので、実装を直しても意味がありません。
+        en: The requirements are different in the first place, so fixing the implementation won't help.
+        blank: in the first place
+
+  - id: one-after-another
+    ja: どんどん
+    ja_reading: どんどん
+    en: one after the other
+    pos: adverb
+    lists: [5]
+    examples:
+      - ja: どんどん意見を言ってくださいね。
+        en: Let's all share our opinions one after the other.
+        blank: one after the other
+      - ja: チケットがどんどん積もっているので、優先順位を付け直しましょう。
+        en: Tickets keep coming in one after the other, so let's re-prioritize.
+        blank: one after the other
+      - ja: 改善案がどんどん出ているので、バックログに切り出します。
+        en: Improvement ideas are coming one after the other, so I'll split them into the backlog.
+        blank: one after the other
+
+  - id: side
+    ja: 側
+    ja_reading: がわ
+    en: side
+    pos: noun
+    lists: [5]
+    examples:
+      - ja: これはQA側で対応します。
+        en: The QA side will deal with this.
+        blank: side
+      - ja: クライアント側のバグか、サーバ側のバグか、切り分けたいです。
+        en: I want to determine whether this is a client-side bug or a server-side bug.
+        blank: side
+      - ja: インフラ側の変更なので、アプリ側は待っていてください。
+        en: This is an infra-side change, so the app side can wait.
+        blank: side

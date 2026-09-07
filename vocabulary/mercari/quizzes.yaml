@@ -1,0 +1,2612 @@
+source:
+  name: mercari/engineer-vocabulary-list
+  url: https://github.com/mercari/engineer-vocabulary-list
+  license: CC BY 4.0
+  adapted: true
+  notes: |
+    Vocabulary items are copied from Mercari's Engineer Vocabulary List (CC BY 4.0). Example sentences are based on that list and expanded so each item has 2-3 examples with different sentence structures.
+quizzes:
+  - id: take-a-ticket-1
+    vocab_id: take-a-ticket
+    prompt_ja: すでに3つチケットを取っているので、今週は取れません。
+    blanked_en: I can't ____ this week because I have already taken 3.
+    answers:
+      - take a ticket
+    hint: take a ticket
+  - id: take-a-ticket-2
+    vocab_id: take-a-ticket
+    prompt_ja: キャパシティがあれば、このチケットを取ってもらえますか。
+    blanked_en: Can you ____ if you have capacity?
+    answers:
+      - take this ticket
+    hint: take a ticket
+  - id: take-a-ticket-3
+    vocab_id: take-a-ticket
+    prompt_ja: 決済APIのバグは、私がチケットを取ります。
+    blanked_en: I'll ____ for the payment API bug.
+    answers:
+      - take a ticket
+    hint: take a ticket
+  - id: already-1
+    vocab_id: already
+    prompt_ja: すでに3つチケットを取っているので、今週は取れません。
+    blanked_en: I can't take a ticket this week because I have ____ taken 3.
+    answers:
+      - already
+    hint: already
+  - id: already-2
+    vocab_id: already
+    prompt_ja: その修正は、すでにステージングにデプロイ済みです。
+    blanked_en: The fix has ____ been deployed to staging.
+    answers:
+      - already
+    hint: already
+  - id: already-3
+    vocab_id: already
+    prompt_ja: この件、前回のスタンドアップですでに話しましたか。
+    blanked_en: Have we ____ discussed this in the last standup?
+    answers:
+      - already
+    hint: already
+  - id: create-a-pull-request-1
+    vocab_id: create-a-pull-request
+    prompt_ja: 昨日、プルリクを出しました。
+    blanked_en: I ____ yesterday.
+    answers:
+      - made a pull request
+    hint: make/create a pull request
+  - id: create-a-pull-request-2
+    vocab_id: create-a-pull-request
+    prompt_ja: テストが通ったら、プルリクを出してもらえますか。
+    blanked_en: Could you ____ once the tests pass?
+    answers:
+      - create a pull request
+    hint: make/create a pull request
+  - id: create-a-pull-request-3
+    vocab_id: create-a-pull-request
+    prompt_ja: レビューコメントを直したら、プルリクを出します。
+    blanked_en: I'll ____ after I address the review comments.
+    answers:
+      - make a pull request
+    hint: make/create a pull request
+  - id: develop-1
+    vocab_id: develop
+    prompt_ja: 今、通知サービスを開発しています。
+    blanked_en: I'm ____ the notification service now.
+    answers:
+      - developing
+    hint: develop
+  - id: develop-2
+    vocab_id: develop
+    prompt_ja: この機能は、先四半期に開発しました。
+    blanked_en: We ____ this feature last quarter.
+    answers:
+      - developed
+    hint: develop
+  - id: develop-3
+    vocab_id: develop
+    prompt_ja: 検索まわりは、どのチームが開発していますか。
+    blanked_en: Which team is ____ the search flow?
+    answers:
+      - developing
+    hint: develop
+  - id: revise-1
+    vocab_id: revise
+    prompt_ja: 修正は今日中に終わると思います。
+    blanked_en: I think I'll ____ it by the end of today.
+    answers:
+      - revise
+    hint: correct, revise
+  - id: revise-2
+    vocab_id: revise
+    prompt_ja: READMEの誤字を修正してもらえますか。
+    blanked_en: Could you ____ the typo in the README?
+    answers:
+      - correct
+    hint: correct, revise
+  - id: revise-3
+    vocab_id: revise
+    prompt_ja: デザインレビューのあと、仕様が修正されました。
+    blanked_en: The spec was ____ after the design review.
+    answers:
+      - revised
+    hint: correct, revise
+  - id: merge-1
+    vocab_id: merge
+    prompt_ja: featureブランチをmainにマージしました。
+    blanked_en: I ____ the feature branch into main.
+    answers:
+      - merged
+    hint: merge
+  - id: merge-2
+    vocab_id: merge
+    prompt_ja: QAがOKを出すまで、マージしないでください。
+    blanked_en: Don't ____ this until QA signs off.
+    answers:
+      - merge
+    hint: merge
+  - id: merge-3
+    vocab_id: merge
+    prompt_ja: CIが通ったら、そのプルリクをマージできます。
+    blanked_en: Once CI is green, we can ____ the pull request.
+    answers:
+      - merge
+    hint: merge
+  - id: proceed-1
+    vocab_id: proceed
+    prompt_ja: このチケットは、Kenさんと一緒に進めています。
+    blanked_en: I'm ____ this ticket with Ken.
+    answers:
+      - working on
+    hint: move forward, proceed with, work on
+  - id: proceed-2
+    vocab_id: proceed
+    prompt_ja: 当初の計画で進めましょう。
+    blanked_en: Let's ____ the original plan.
+    answers:
+      - proceed with
+    hint: move forward, proceed with, work on
+  - id: proceed-3
+    vocab_id: proceed
+    prompt_ja: 次のスプリントの前に、この件を進めた方がいいです。
+    blanked_en: We should ____ before the next sprint.
+    answers:
+      - move this forward
+    hint: move forward, proceed with, work on
+  - id: work-operate-1
+    vocab_id: work-operate
+    prompt_ja: システムがちゃんと動いてないことがわかった。
+    blanked_en: I realized that the system was not ____ properly.
+    answers:
+      - working
+    hint: work, operate
+  - id: work-operate-2
+    vocab_id: work-operate
+    prompt_ja: バッチジョブは、毎晩0時に動きます。
+    blanked_en: The batch job ____ every night at midnight.
+    answers:
+      - operates
+    hint: work, operate
+  - id: work-operate-3
+    vocab_id: work-operate
+    prompt_ja: ステージング環境は、今動いていますか。
+    blanked_en: Is the staging environment ____ now?
+    answers:
+      - working
+    hint: work, operate
+  - id: properly-1
+    vocab_id: properly
+    prompt_ja: システムがちゃんと動いてないことがわかった。
+    blanked_en: I realized that the system was not working ____.
+    answers:
+      - properly
+    hint: properly
+  - id: properly-2
+    vocab_id: properly
+    prompt_ja: エラーハンドリングは、ちゃんと実装してください。
+    blanked_en: Please make sure the error handling is implemented ____.
+    answers:
+      - properly
+    hint: properly
+  - id: properly-3
+    vocab_id: properly
+    prompt_ja: ログがちゃんと収集されていません。
+    blanked_en: The logs aren't being collected ____.
+    answers:
+      - properly
+    hint: properly
+  - id: make-a-deadline-1
+    vocab_id: make-a-deadline
+    prompt_ja: 来週のリリースには間に合いそうです。
+    blanked_en: It seems that we'll ____ next week.
+    answers:
+      - make the release
+    hint: be in time, make a deadline
+  - id: make-a-deadline-2
+    vocab_id: make-a-deadline
+    prompt_ja: スコープを増やすと、締切に間に合わないと思います。
+    blanked_en: I don't think we can ____ if we add more scope.
+    answers:
+      - make the deadline
+    hint: be in time, make a deadline
+  - id: make-a-deadline-3
+    vocab_id: make-a-deadline
+    prompt_ja: ドキュメントは、ローンチに間に合いますか。
+    blanked_en: Will the documentation be ____ for the launch?
+    answers:
+      - in time
+    hint: be in time, make a deadline
+  - id: status-1
+    vocab_id: status
+    prompt_ja: QAしてもらえる状態のものがありますか。
+    blanked_en: Is there anything in a ____ ready for QA?
+    answers:
+      - state
+    hint: status
+  - id: status-2
+    vocab_id: status
+    prompt_ja: マイグレーションの今の状態を教えてください。
+    blanked_en: What's the current ____ of the migration?
+    answers:
+      - status
+    hint: status
+  - id: status-3
+    vocab_id: status
+    prompt_ja: 障害のあと、サービスは劣化状態です。
+    blanked_en: The service is in a degraded ____ after the incident.
+    answers:
+      - status
+    hint: status
+  - id: issue-1
+    vocab_id: issue
+    prompt_ja: 課題が見つかった。
+    blanked_en: We found some ____.
+    answers:
+      - issues
+    hint: issue
+  - id: issue-2
+    vocab_id: issue
+    prompt_ja: この課題は、次のレトロで議論した方がいいです。
+    blanked_en: This ____ should be discussed in the next retro.
+    answers:
+      - issue
+    hint: issue
+  - id: issue-3
+    vocab_id: issue
+    prompt_ja: リリースを止めている未解決の課題はありますか。
+    blanked_en: Are there any open ____ blocking the release?
+    answers:
+      - issues
+    hint: issue
+  - id: requirements-1
+    vocab_id: requirements
+    prompt_ja: 要件は明日、テックリードに共有します。
+    blanked_en: I'll share the ____ with the tech leads tomorrow.
+    answers:
+      - requirements
+    hint: requirements
+  - id: requirements-2
+    vocab_id: requirements
+    prompt_ja: 要件がまだはっきりしていません。
+    blanked_en: The ____ are still unclear.
+    answers:
+      - requirements
+    hint: requirements
+  - id: requirements-3
+    vocab_id: requirements
+    prompt_ja: 実装を始める前に、要件を固めた方がいいです。
+    blanked_en: We should freeze the ____ before implementation starts.
+    answers:
+      - requirements
+    hint: requirements
+  - id: specification-1
+    vocab_id: specification
+    prompt_ja: まだ仕様が決まってない。
+    blanked_en: The ____ haven't been decided yet.
+    answers:
+      - specs
+    hint: specification
+  - id: specification-2
+    vocab_id: specification
+    prompt_ja: APIの変更を仕様に反映してください。
+    blanked_en: Please update the ____ to reflect the API change.
+    answers:
+      - spec
+    hint: specification
+  - id: specification-3
+    vocab_id: specification
+    prompt_ja: 仕様では、このエンドポイントは404を返すことになっています。
+    blanked_en: According to the ____, this endpoint should return 404.
+    answers:
+      - specification
+    hint: specification
+  - id: take-shape-1
+    vocab_id: take-shape
+    prompt_ja: まだ仕様が固まっていません。
+    blanked_en: The specs haven't ____ yet.
+    answers:
+      - taken shape
+    hint: take shape
+  - id: take-shape-2
+    vocab_id: take-shape
+    prompt_ja: 設計が固まったら、見積もり精度が上がります。
+    blanked_en: Once the design ____, we can estimate more accurately.
+    answers:
+      - takes shape
+    hint: take shape
+  - id: take-shape-3
+    vocab_id: take-shape
+    prompt_ja: ロールアウト計画が、ようやく固まってきました。
+    blanked_en: The rollout plan is starting to ____.
+    answers:
+      - take shape
+    hint: take shape
+  - id: obstacle-1
+    vocab_id: obstacle
+    prompt_ja: それによってプロジェクトに支障が出ています。
+    blanked_en: That is causing an ____ for our project.
+    answers:
+      - obstacle
+    hint: obstacle, hitch
+  - id: obstacle-2
+    vocab_id: obstacle
+    prompt_ja: VPNの不調が、日常業務の支障になっています。
+    blanked_en: The VPN issues are a ____ in our daily work.
+    answers:
+      - hitch
+    hint: obstacle, hitch
+  - id: obstacle-3
+    vocab_id: obstacle
+    prompt_ja: ローンチに支障が出る前に、これを解消する必要があります。
+    blanked_en: We need to resolve this before it ____ the launch.
+    answers:
+      - interferes with
+    hint: obstacle, hitch
+  - id: effect-1
+    vocab_id: effect
+    prompt_ja: これは、お客様に影響があるインシデントじゃないです。
+    blanked_en: This is not an incident that has an ____ on customers.
+    answers:
+      - effect
+    hint: effect, impact
+  - id: effect-2
+    vocab_id: effect
+    prompt_ja: この変更がチェックアウトに与える影響は何ですか。
+    blanked_en: What is the ____ of this change on the checkout flow?
+    answers:
+      - impact
+    hint: effect, impact
+  - id: effect-3
+    vocab_id: effect
+    prompt_ja: ロールアウト前に、レイテンシへの影響を確認した方がいいです。
+    blanked_en: We should assess the ____ on latency before rolling out.
+    answers:
+      - effect
+    hint: effect, impact
+  - id: cause-1
+    vocab_id: cause
+    prompt_ja: これから原因を調べます。
+    blanked_en: I will look into the ____ now.
+    answers:
+      - causes
+    hint: cause
+  - id: cause-2
+    vocab_id: cause
+    prompt_ja: 根本原因は、タイムアウトの設定ミスでした。
+    blanked_en: The root ____ was a misconfigured timeout.
+    answers:
+      - cause
+    hint: cause
+  - id: cause-3
+    vocab_id: cause
+    prompt_ja: メモリリークの原因は特定できましたか。
+    blanked_en: Have we identified the ____ of the memory leak?
+    answers:
+      - cause
+    hint: cause
+  - id: consult-1
+    vocab_id: consult
+    prompt_ja: マネージャーに相談する。
+    blanked_en: I'll ____ my manager.
+    answers:
+      - consult with
+    hint: consult
+  - id: consult-2
+    vocab_id: consult
+    prompt_ja: DBスキーマの件、相談してもいいですか。
+    blanked_en: Can I ____ you about the database schema?
+    answers:
+      - consult
+    hint: consult
+  - id: consult-3
+    vocab_id: consult
+    prompt_ja: その機能を有効にする前に、セキュリティチームに相談しました。
+    blanked_en: She ____ the security team before enabling the feature.
+    answers:
+      - consulted
+    hint: consult
+  - id: be-in-trouble-1
+    vocab_id: be-in-trouble
+    prompt_ja: 何か困ってることがありますか。
+    blanked_en: Do you have any ____?
+    answers:
+      - difficulties
+    hint: be in trouble, have difficulties
+  - id: be-in-trouble-2
+    vocab_id: be-in-trouble
+    prompt_ja: そのバグの再現で困っています。
+    blanked_en: I'm ____ reproducing the bug.
+    answers:
+      - having trouble
+    hint: be in trouble, have difficulties
+  - id: be-in-trouble-3
+    vocab_id: be-in-trouble
+    prompt_ja: デプロイで困ったら、連絡してください。
+    blanked_en: Let me know if you're ____ with the deployment.
+    answers:
+      - in trouble
+    hint: be in trouble, have difficulties
+  - id: align-with-1
+    vocab_id: align-with
+    prompt_ja: これはteam Bと連携してやっていきます。
+    blanked_en: We are ____ team B to do this.
+    answers:
+      - aligned with
+    hint: work together, align with
+  - id: align-with-2
+    vocab_id: align-with
+    prompt_ja: この件は、SREチームと連携する必要があります。
+    blanked_en: We need to ____ the SRE team on this.
+    answers:
+      - work together with
+    hint: work together, align with
+  - id: align-with-3
+    vocab_id: align-with
+    prompt_ja: スコープを変える前に、PdMと連携してください。
+    blanked_en: Please ____ the product manager before changing the scope.
+    answers:
+      - align with
+    hint: work together, align with
+  - id: sync-1
+    vocab_id: sync
+    prompt_ja: あとでテックリードとsyncしておきます。
+    blanked_en: I will ____ the tech lead later.
+    answers:
+      - sync with
+    hint: sync
+  - id: sync-2
+    vocab_id: sync
+    prompt_ja: 障害の件、明日の朝にsyncしましょう。
+    blanked_en: Let's ____ tomorrow morning about the incident.
+    answers:
+      - sync
+    hint: sync
+  - id: sync-3
+    vocab_id: sync
+    prompt_ja: PRを出す前に、mainから最新をsyncします。
+    blanked_en: I'll ____ the latest changes from main before opening the PR.
+    answers:
+      - sync
+    hint: sync
+  - id: set-1
+    vocab_id: set
+    prompt_ja: 目標を設定する。
+    blanked_en: I'll ____ goals.
+    answers:
+      - set
+    hint: set
+  - id: set-2
+    vocab_id: set
+    prompt_ja: タイムアウトは30秒に設定してください。
+    blanked_en: Please ____ the timeout to 30 seconds.
+    answers:
+      - set
+    hint: set
+  - id: set-3
+    vocab_id: set
+    prompt_ja: ローンチ日は、まだ設定していません。
+    blanked_en: We haven't ____ a date for the launch yet.
+    answers:
+      - set
+    hint: set
+  - id: reflect-1
+    vocab_id: reflect
+    prompt_ja: 先週修正したけど、Jiraに反映されてません。
+    blanked_en: I edited it last week, but it isn't ____ on Jira yet.
+    answers:
+      - reflected
+    hint: reflect
+  - id: reflect-2
+    vocab_id: reflect
+    prompt_ja: 設定変更は、次のデプロイ後に反映されます。
+    blanked_en: The config change will be ____ after the next deploy.
+    answers:
+      - reflected
+    hint: reflect
+  - id: reflect-3
+    vocab_id: reflect
+    prompt_ja: 新しい文言が本番に反映されているか確認してください。
+    blanked_en: Please make sure the new copy is ____ on the production site.
+    answers:
+      - reflected
+    hint: reflect
+  - id: efficiency-1
+    vocab_id: efficiency
+    prompt_ja: そのやり方は、効率がよさそう。
+    blanked_en: That method seems ____.
+    answers:
+      - efficient
+    hint: efficiency
+  - id: efficiency-2
+    vocab_id: efficiency
+    prompt_ja: CIパイプラインの効率を上げた方がいいです。
+    blanked_en: We should improve the ____ of the CI pipeline.
+    answers:
+      - efficiency
+    hint: efficiency
+  - id: efficiency-3
+    vocab_id: efficiency
+    prompt_ja: クエリ結果をキャッシュした方が、効率的です。
+    blanked_en: Caching the query results would be more ____.
+    answers:
+      - efficient
+    hint: efficiency
+  - id: details-1
+    vocab_id: details
+    prompt_ja: 詳細はdocsを見てください。
+    blanked_en: Please check the docs for ____.
+    answers:
+      - details
+    hint: details
+  - id: details-2
+    vocab_id: details
+    prompt_ja: 障害の詳細を、後ほど共有します。
+    blanked_en: I'll share the ____ of the incident later.
+    answers:
+      - details
+    hint: details
+  - id: details-3
+    vocab_id: details
+    prompt_ja: 詳細がわからないので、設計を進められません。
+    blanked_en: We can't proceed with the design because the ____ are unclear.
+    answers:
+      - details
+    hint: details
+  - id: in-detail-1
+    vocab_id: in-detail
+    prompt_ja: どんなインシデントだったか詳しく教えてもらえますか。
+    blanked_en: Could you tell me about the incident ____?
+    answers:
+      - in detail
+    hint: in detail
+  - id: in-detail-2
+    vocab_id: in-detail
+    prompt_ja: ログを詳しく見てみます。
+    blanked_en: I'll look at the logs ____.
+    answers:
+      - in detail
+    hint: in detail
+  - id: in-detail-3
+    vocab_id: in-detail
+    prompt_ja: 設計ドキュメントで、ロールアウト手順が詳しく書いてあります。
+    blanked_en: The rollout steps are described ____ in the design doc.
+    answers:
+      - in detail
+    hint: in detail
+  - id: policy-1
+    vocab_id: policy
+    prompt_ja: まだ会社の方針が決まってない。
+    blanked_en: The company ____ has not been decided yet.
+    answers:
+      - policy
+    hint: policy
+  - id: policy-2
+    vocab_id: policy
+    prompt_ja: この変更は、セキュリティ方針に合っていますか。
+    blanked_en: Does this change comply with the security ____?
+    answers:
+      - policy
+    hint: policy
+  - id: policy-3
+    vocab_id: policy
+    prompt_ja: オンコールの方針を、チームで見直しましょう。
+    blanked_en: Let's review the on-call ____ as a team.
+    answers:
+      - policy
+    hint: policy
+  - id: supplementary-1
+    vocab_id: supplementary
+    prompt_ja: ケンさんの話への補足なんですけど。
+    blanked_en: Let me add something ____ to what Ken said.
+    answers:
+      - supplementary
+    hint: supplementary, additional
+  - id: supplementary-2
+    vocab_id: supplementary
+    prompt_ja: 補足ですが、このAPIはまだベータです。
+    blanked_en: As an ____ note, this API is still in beta.
+    answers:
+      - additional
+    hint: supplementary, additional
+  - id: supplementary-3
+    vocab_id: supplementary
+    prompt_ja: READMEに、セットアップ手順の補足を書きました。
+    blanked_en: I added a ____ note on the setup steps to the README.
+    answers:
+      - supplementary
+    hint: supplementary, additional
+  - id: effective-1
+    vocab_id: effective
+    prompt_ja: このやり方が効果的だと思います。
+    blanked_en: I think this way is ____.
+    answers:
+      - effective
+    hint: effective
+  - id: effective-2
+    vocab_id: effective
+    prompt_ja: キャッシュは、このレイテンシ問題に効果的ですか。
+    blanked_en: Would caching be ____ for this latency issue?
+    answers:
+      - effective
+    hint: effective
+  - id: effective-3
+    vocab_id: effective
+    prompt_ja: アラートを減らすには、しきい値の見直しが一番効果的でした。
+    blanked_en: Revising the thresholds was the most ____ way to reduce alerts.
+    answers:
+      - effective
+    hint: effective
+  - id: achieve-1
+    vocab_id: achieve
+    prompt_ja: 先週、OKRを達成しました。
+    blanked_en: We ____ our OKR last week.
+    answers:
+      - achieved
+    hint: achieve
+  - id: achieve-2
+    vocab_id: achieve
+    prompt_ja: このペースなら、今四半期の目標を達成できそうです。
+    blanked_en: At this pace, we should be able to ____ this quarter's goals.
+    answers:
+      - achieve
+    hint: achieve
+  - id: achieve-3
+    vocab_id: achieve
+    prompt_ja: 99.9%の可用性は、まだ達成できていません。
+    blanked_en: We haven't ____ 99.9% availability yet.
+    answers:
+      - achieved
+    hint: achieve
+  - id: report-1
+    vocab_id: report
+    prompt_ja: プロジェクトについて報告します。
+    blanked_en: I will ____ the project.
+    answers:
+      - report on
+    hint: report
+  - id: report-2
+    vocab_id: report
+    prompt_ja: インシデントは、すぐにオンコールに報告してください。
+    blanked_en: Please ____ the incident to the on-call engineer right away.
+    answers:
+      - report
+    hint: report
+  - id: report-3
+    vocab_id: report
+    prompt_ja: 進捗は、週次でマネージャーに報告しています。
+    blanked_en: Progress is ____ to the manager weekly.
+    answers:
+      - reported
+    hint: report
+  - id: discuss-1
+    vocab_id: discuss
+    prompt_ja: それはEMが議論しているところです。
+    blanked_en: EMs are ____ it now.
+    answers:
+      - discussing
+    hint: discuss
+  - id: discuss-2
+    vocab_id: discuss
+    prompt_ja: この設計、次のミーティングで議論しましょう。
+    blanked_en: Let's ____ this design in the next meeting.
+    answers:
+      - discuss
+    hint: discuss
+  - id: discuss-3
+    vocab_id: discuss
+    prompt_ja: スコープについては、まだ十分に議論できていません。
+    blanked_en: We haven't ____ the scope enough yet.
+    answers:
+      - discussed
+    hint: discuss
+  - id: defect-1
+    vocab_id: defect
+    prompt_ja: ちょっと不具合があるので、今日中に直します。
+    blanked_en: There are some ____, so I'll fix them by the end of the day.
+    answers:
+      - defects
+    hint: defect, bug
+  - id: defect-2
+    vocab_id: defect
+    prompt_ja: 本番で不具合が見つかりました。
+    blanked_en: We found a ____ in production.
+    answers:
+      - bug
+    hint: defect, bug
+  - id: defect-3
+    vocab_id: defect
+    prompt_ja: この不具合は、決済フローに影響しますか。
+    blanked_en: Does this ____ affect the payment flow?
+    answers:
+      - defect
+    hint: defect, bug
+  - id: smooth-1
+    vocab_id: smooth
+    prompt_ja: これは、順調に進んでいます。
+    blanked_en: This is going ____.
+    answers:
+      - smoothly
+    hint: smooth
+  - id: smooth-2
+    vocab_id: smooth
+    prompt_ja: マイグレーションは順調ですか。
+    blanked_en: Is the migration going ____?
+    answers:
+      - smoothly
+    hint: smooth
+  - id: smooth-3
+    vocab_id: smooth
+    prompt_ja: リリースは順調で、ロールバックは不要でした。
+    blanked_en: The release was ____, so we didn't need to roll back.
+    answers:
+      - smooth
+    hint: smooth
+  - id: amount-1
+    vocab_id: amount
+    prompt_ja: タスクの量が多すぎます。
+    blanked_en: The ____ of remaining work is too large.
+    answers:
+      - amount
+    hint: amount
+  - id: amount-2
+    vocab_id: amount
+    prompt_ja: ログの量が増えて、ディスクを圧迫しています。
+    blanked_en: The ____ of logs has grown and is filling up the disk.
+    answers:
+      - amount
+    hint: amount
+  - id: amount-3
+    vocab_id: amount
+    prompt_ja: レビューの量を、スプリントごとに測っています。
+    blanked_en: We measure the ____ of reviews per sprint.
+    answers:
+      - amount
+    hint: amount
+  - id: concrete-1
+    vocab_id: concrete
+    prompt_ja: 具体的にどんなインシデントでしたか。
+    blanked_en: Could you explain the incident more ____?
+    answers:
+      - concretely
+    hint: concrete
+  - id: concrete-2
+    vocab_id: concrete
+    prompt_ja: 次のアクションを、もっと具体的にしましょう。
+    blanked_en: Let's make the next actions more ____.
+    answers:
+      - concrete
+    hint: concrete
+  - id: concrete-3
+    vocab_id: concrete
+    prompt_ja: 具体的な例がないと、要件がイメージしにくいです。
+    blanked_en: It's hard to picture the requirements without a ____ example.
+    answers:
+      - concrete
+    hint: concrete
+  - id: situation-1
+    vocab_id: situation
+    prompt_ja: QAのリソースが厳しい状況です。
+    blanked_en: We're in a tough ____ in terms of QA resources.
+    answers:
+      - situation
+    hint: situation
+  - id: situation-2
+    vocab_id: situation
+    prompt_ja: 障害の状況を、チャンネルで共有します。
+    blanked_en: I'll share the incident ____ in the channel.
+    answers:
+      - situation
+    hint: situation
+  - id: situation-3
+    vocab_id: situation
+    prompt_ja: 今の状況では、スコープを減らした方がいいです。
+    blanked_en: In the current ____, we should reduce the scope.
+    answers:
+      - situation
+    hint: situation
+  - id: present-situation-1
+    vocab_id: present-situation
+    prompt_ja: 現状を説明します。
+    blanked_en: I'll explain the ____.
+    answers:
+      - present situation
+    hint: present situation
+  - id: present-situation-2
+    vocab_id: present-situation
+    prompt_ja: 現状では、このAPIは認証なしです。
+    blanked_en: In the ____, this API has no authentication.
+    answers:
+      - present situation
+    hint: present situation
+  - id: present-situation-3
+    vocab_id: present-situation
+    prompt_ja: 現状を踏まえると、リリースは来週にずらした方がいいです。
+    blanked_en: Given the ____, we should postpone the release to next week.
+    answers:
+      - present situation
+    hint: present situation
+  - id: progress-check-1
+    vocab_id: progress-check
+    prompt_ja: まずは、進捗確認をしましょう。
+    blanked_en: Let's start with a ____.
+    answers:
+      - progress check
+    hint: progress check
+  - id: progress-check-2
+    vocab_id: progress-check
+    prompt_ja: スタンドアップで、進捗確認をします。
+    blanked_en: We'll do a ____ in standup.
+    answers:
+      - progress check
+    hint: progress check
+  - id: progress-check-3
+    vocab_id: progress-check
+    prompt_ja: 週の半ばにも、短い進捗確認を入れましょう。
+    blanked_en: Let's add a short ____ mid-week as well.
+    answers:
+      - progress check
+    hint: progress check
+  - id: priority-1
+    vocab_id: priority
+    prompt_ja: 優先順位を決めたほうがいいと思います。
+    blanked_en: I think we should decide the ____.
+    answers:
+      - priority
+    hint: priority
+  - id: priority-2
+    vocab_id: priority
+    prompt_ja: このバグの優先順位は、どのくらいですか。
+    blanked_en: What's the ____ of this bug?
+    answers:
+      - priority
+    hint: priority
+  - id: priority-3
+    vocab_id: priority
+    prompt_ja: 優先順位を変えるなら、PdMに確認してください。
+    blanked_en: If we change the ____, please check with the PM.
+    answers:
+      - priority
+    hint: priority
+  - id: remain-1
+    vocab_id: remain
+    prompt_ja: 残っているチケットはありますか。
+    blanked_en: Are there any tickets ____?
+    answers:
+      - remaining
+    hint: remain
+  - id: remain-2
+    vocab_id: remain
+    prompt_ja: 未解決のコメントが、まだ2件残っています。
+    blanked_en: Two unresolved comments still ____.
+    answers:
+      - remain
+    hint: remain
+  - id: remain-3
+    vocab_id: remain
+    prompt_ja: リスクが残るなら、フィーチャーフラグで出しましょう。
+    blanked_en: If any risk ____, let's ship it behind a feature flag.
+    answers:
+      - remains
+    hint: remain
+  - id: initiate-1
+    vocab_id: initiate
+    prompt_ja: それって、もう着手してますか。
+    blanked_en: Have you already ____ it?
+    answers:
+      - initiated
+    hint: initiate
+  - id: initiate-2
+    vocab_id: initiate
+    prompt_ja: 認証まわりのリファクタには、来スプリントで着手します。
+    blanked_en: We'll ____ the auth refactor in the next sprint.
+    answers:
+      - initiate
+    hint: initiate
+  - id: initiate-3
+    vocab_id: initiate
+    prompt_ja: 調査には着手したものの、まだ修正には入れていません。
+    blanked_en: We've ____ the investigation, but we haven't started the fix yet.
+    answers:
+      - initiated
+    hint: initiate
+  - id: adjust-1
+    vocab_id: adjust
+    prompt_ja: 最近忙しすぎるので、タスクの量を調整したほうがいいと思っています。
+    blanked_en: I'm thinking I should ____ my workload because I've been too busy these days.
+    answers:
+      - adjust
+    hint: adjust
+  - id: adjust-2
+    vocab_id: adjust
+    prompt_ja: リトライ回数を調整して、負荷を下げましょう。
+    blanked_en: Let's ____ the retry count to reduce the load.
+    answers:
+      - adjust
+    hint: adjust
+  - id: adjust-3
+    vocab_id: adjust
+    prompt_ja: リリース日は、QAの空きに合わせて調整します。
+    blanked_en: We'll ____ the release date to match QA availability.
+    answers:
+      - adjust
+    hint: adjust
+  - id: understanding-1
+    vocab_id: understanding
+    prompt_ja: 全員で認識を合わせたいです。
+    blanked_en: I'd like to make sure everyone has the same ____.
+    answers:
+      - understanding
+    hint: recognition, understanding
+  - id: understanding-2
+    vocab_id: understanding
+    prompt_ja: 私の認識では、このAPIは内部向けです。
+    blanked_en: My ____ is that this API is internal-only.
+    answers:
+      - understanding
+    hint: recognition, understanding
+  - id: understanding-3
+    vocab_id: understanding
+    prompt_ja: 障害対応の役割分担について、認識を揃えましょう。
+    blanked_en: Let's align our ____ of the incident-response roles.
+    answers:
+      - understanding
+    hint: recognition, understanding
+  - id: be-out-of-alignment-1
+    vocab_id: be-out-of-alignment
+    prompt_ja: 認識がずれてないか確認したいです。
+    blanked_en: I'd like to make sure we're not ____.
+    answers:
+      - out of alignment
+    hint: be out of alignment
+  - id: be-out-of-alignment-2
+    vocab_id: be-out-of-alignment
+    prompt_ja: 見積もりと実績が、かなりずれています。
+    blanked_en: The estimate and the actuals are quite ____.
+    answers:
+      - out of alignment
+    hint: be out of alignment
+  - id: be-out-of-alignment-3
+    vocab_id: be-out-of-alignment
+    prompt_ja: 仕様が実装とずれているので、ドキュメントを直します。
+    blanked_en: The spec is ____ with the implementation, so I'll fix the docs.
+    answers:
+      - out of alignment
+    hint: be out of alignment
+  - id: change-1
+    vocab_id: change
+    prompt_ja: スケジュールが変更しています。
+    blanked_en: The schedule has been ____.
+    answers:
+      - changed
+    hint: change
+  - id: change-2
+    vocab_id: change
+    prompt_ja: スキーマを変更する前に、互換性を確認してください。
+    blanked_en: Please check compatibility before you ____ the schema.
+    answers:
+      - change
+    hint: change
+  - id: change-3
+    vocab_id: change
+    prompt_ja: 要件が途中で変更されたので、見積もりをやり直します。
+    blanked_en: The requirements were ____ midway, so I'll redo the estimate.
+    answers:
+      - changed
+    hint: change
+  - id: start-1
+    vocab_id: start
+    prompt_ja: 来週からキャンペーンが開始します。
+    blanked_en: We will ____ a campaign next week.
+    answers:
+      - start
+    hint: start
+  - id: start-2
+    vocab_id: start
+    prompt_ja: ロールアウトは、今夜22時に開始します。
+    blanked_en: The rollout will ____ at 10 p.m. tonight.
+    answers:
+      - start
+    hint: start
+  - id: start-3
+    vocab_id: start
+    prompt_ja: 負荷試験は、もう開始していますか。
+    blanked_en: Has the load test already ____?
+    answers:
+      - started
+    hint: start
+  - id: move-up-1
+    vocab_id: move-up
+    prompt_ja: このプロジェクトは、前倒しで進めましょう。
+    blanked_en: Let's ____ this project.
+    answers:
+      - move up
+    hint: reschedule to an earlier time, move up
+  - id: move-up-2
+    vocab_id: move-up
+    prompt_ja: リリースを1週間前倒しできますか。
+    blanked_en: Can we ____ by a week?
+    answers:
+      - move the release up
+    hint: reschedule to an earlier time, move up
+  - id: move-up-3
+    vocab_id: move-up
+    prompt_ja: 前倒しすると、QAの時間が足りなくなります。
+    blanked_en: If we ____, QA won't have enough time.
+    answers:
+      - reschedule it to an earlier time
+    hint: reschedule to an earlier time, move up
+  - id: sometime-after-1
+    vocab_id: sometime-after
+    prompt_ja: コードレビューは、来週以降の予定です。
+    blanked_en: We're planning to do a code review ____ next week.
+    answers:
+      - sometime after
+    hint: sometime after
+  - id: sometime-after-2
+    vocab_id: sometime-after
+    prompt_ja: それは金曜以降に対応します。
+    blanked_en: We'll handle that ____ Friday.
+    answers:
+      - sometime after
+    hint: sometime after
+  - id: sometime-after-3
+    vocab_id: sometime-after
+    prompt_ja: このフラグは、次のリリース以降に削除できます。
+    blanked_en: We can remove this flag ____ the next release.
+    answers:
+      - sometime after
+    hint: sometime after
+  - id: deadline-1
+    vocab_id: deadline
+    prompt_ja: 締切はいつですか。
+    blanked_en: When is the ____?
+    answers:
+      - due date
+    hint: deadline, due date
+  - id: deadline-2
+    vocab_id: deadline
+    prompt_ja: このチケットの締切は金曜です。
+    blanked_en: The ____ for this ticket is Friday.
+    answers:
+      - deadline
+    hint: deadline, due date
+  - id: deadline-3
+    vocab_id: deadline
+    prompt_ja: 締切を延ばさないと、品質を保てません。
+    blanked_en: We can't keep the quality unless we extend the ____.
+    answers:
+      - deadline
+    hint: deadline, due date
+  - id: ahead-1
+    vocab_id: ahead
+    prompt_ja: 他のミーティングがあって遅れるので、先に始めてください。
+    blanked_en: Please ____ with the meeting without me as I'm running late due to another meeting.
+    answers:
+      - go ahead
+    hint: ahead
+  - id: ahead-2
+    vocab_id: ahead
+    prompt_ja: 先にステージングへ出して、本番は明日にします。
+    blanked_en: Let's deploy to staging ____ production, and ship prod tomorrow.
+    answers:
+      - ahead of
+    hint: ahead
+  - id: ahead-3
+    vocab_id: ahead
+    prompt_ja: 質問があれば、先にチャットへ書いておいてください。
+    blanked_en: If you have questions, please write them in chat ____.
+    answers:
+      - ahead of time
+    hint: ahead
+  - id: in-advance-1
+    vocab_id: in-advance
+    prompt_ja: 話したいトピックは、事前に書いておいてください。
+    blanked_en: Please write the topics you want to talk about ____.
+    answers:
+      - in advance
+    hint: in advance
+  - id: in-advance-2
+    vocab_id: in-advance
+    prompt_ja: メンテは、事前にステータスページで告知します。
+    blanked_en: We'll announce the maintenance on the status page ____.
+    answers:
+      - in advance
+    hint: in advance
+  - id: in-advance-3
+    vocab_id: in-advance
+    prompt_ja: 権限が必要なら、事前に申請してください。
+    blanked_en: If you need extra permissions, please request them ____.
+    answers:
+      - in advance
+    hint: in advance
+  - id: early-1
+    vocab_id: early
+    prompt_ja: これは来週リリースなので、早めにやった方がいいと思います。
+    blanked_en: I think we should work on this ____ because we will release it next week.
+    answers:
+      - early
+    hint: early
+  - id: early-2
+    vocab_id: early
+    prompt_ja: レビューは早めにお願いします。
+    blanked_en: Please review this ____.
+    answers:
+      - early
+    hint: early
+  - id: early-3
+    vocab_id: early
+    prompt_ja: リスクがある変更は、スプリントの早めに入れましょう。
+    blanked_en: Let's land risky changes ____ in the sprint.
+    answers:
+      - early
+    hint: early
+  - id: temporarily-1
+    vocab_id: temporarily
+    prompt_ja: 一旦、このやり方で進めましょう。
+    blanked_en: Let's move forward in this way, ____.
+    answers:
+      - temporarily
+    hint: temporarily, for a moment
+  - id: temporarily-2
+    vocab_id: temporarily
+    prompt_ja: 一旦ロールバックして、原因を切り分けます。
+    blanked_en: Let's roll back ____ and isolate the cause.
+    answers:
+      - for a moment
+    hint: temporarily, for a moment
+  - id: temporarily-3
+    vocab_id: temporarily
+    prompt_ja: フラグを一旦オフにして、影響を止めます。
+    blanked_en: I'll turn the flag off ____ to stop the impact.
+    answers:
+      - temporarily
+    hint: temporarily, for a moment
+  - id: environment-1
+    vocab_id: environment
+    prompt_ja: すべてテスト環境に反映しました。
+    blanked_en: Everything has been reflected in the test ____.
+    answers:
+      - environment
+    hint: environment
+  - id: environment-2
+    vocab_id: environment
+    prompt_ja: 本番環境とステージング環境で、設定が違います。
+    blanked_en: The configuration differs between the production and staging ____.
+    answers:
+      - environments
+    hint: environment
+  - id: environment-3
+    vocab_id: environment
+    prompt_ja: どの環境で再現しますか。
+    blanked_en: In which ____ can you reproduce it?
+    answers:
+      - environment
+    hint: environment
+  - id: business-task-1
+    vocab_id: business-task
+    prompt_ja: ネット環境が悪くて、業務に支障が出ています。
+    blanked_en: The internet environment here is bad, which is hindering our ____.
+    answers:
+      - business
+    hint: business, task
+  - id: business-task-2
+    vocab_id: business-task
+    prompt_ja: この業務は、サポートチームの担当です。
+    blanked_en: This ____ belongs to the support team.
+    answers:
+      - task
+    hint: business, task
+  - id: business-task-3
+    vocab_id: business-task
+    prompt_ja: 月末は業務が多いので、リリースを避けたいです。
+    blanked_en: We have a lot of ____ at month-end, so I'd rather avoid a release.
+    answers:
+      - business
+    hint: business, task
+  - id: feature-1
+    vocab_id: feature
+    prompt_ja: どんな機能があったら、もっとお客様のためになると思う？
+    blanked_en: What ____ do you think would be more beneficial for our customers?
+    answers:
+      - features
+    hint: feature, function
+  - id: feature-2
+    vocab_id: feature
+    prompt_ja: この機能は、フィーチャーフラグの裏にあります。
+    blanked_en: This ____ is behind a feature flag.
+    answers:
+      - feature
+    hint: feature, function
+  - id: feature-3
+    vocab_id: feature
+    prompt_ja: 検索機能が、モバイルで動いていません。
+    blanked_en: The search ____ isn't working on mobile.
+    answers:
+      - function
+    hint: feature, function
+  - id: operation-1
+    vocab_id: operation
+    prompt_ja: これは、ちゃんと運用ができていません。
+    blanked_en: That ____ is not working properly.
+    answers:
+      - operation
+    hint: operation
+  - id: operation-2
+    vocab_id: operation
+    prompt_ja: 運用を楽にするために、ランブックを書きました。
+    blanked_en: I wrote a runbook to make the ____ easier.
+    answers:
+      - operation
+    hint: operation
+  - id: operation-3
+    vocab_id: operation
+    prompt_ja: このジョブの運用は、どのチームが持っていますか。
+    blanked_en: Which team owns the ____ of this job?
+    answers:
+      - operation
+    hint: operation
+  - id: point-of-view-1
+    vocab_id: point-of-view
+    prompt_ja: QAの観点からすると、このタスクの優先順位は低いです。
+    blanked_en: From QA's ____, the priority of this task is low.
+    answers:
+      - point of view
+    hint: point of view
+  - id: point-of-view-2
+    vocab_id: point-of-view
+    prompt_ja: セキュリティの観点でも、レビューしてください。
+    blanked_en: Please review it from a security ____ as well.
+    answers:
+      - point of view
+    hint: point of view
+  - id: point-of-view-3
+    vocab_id: point-of-view
+    prompt_ja: コストの観点だと、この案は厳しいです。
+    blanked_en: From a cost ____, this option is tough.
+    answers:
+      - point of view
+    hint: point of view
+  - id: important-1
+    vocab_id: important
+    prompt_ja: どれが一番重要な問題ですか。
+    blanked_en: Which one is the most ____ issue?
+    answers:
+      - important
+    hint: important
+  - id: important-2
+    vocab_id: important
+    prompt_ja: ロールバック手順を残すのは重要です。
+    blanked_en: It's ____ to keep a rollback procedure.
+    answers:
+      - important
+    hint: important
+  - id: important-3
+    vocab_id: important
+    prompt_ja: 今は、ログの欠損が一番重要です。
+    blanked_en: Right now, the missing logs are the most ____ problem.
+    answers:
+      - important
+    hint: important
+  - id: screen-share-1
+    vocab_id: screen-share
+    prompt_ja: 画面共有してもらえる？
+    blanked_en: Can you ____?
+    answers:
+      - share your screen
+    hint: screen share
+  - id: screen-share-2
+    vocab_id: screen-share
+    prompt_ja: 画面共有した方が、デバッグが早いです。
+    blanked_en: A ____ would make debugging faster.
+    answers:
+      - screen share
+    hint: screen share
+  - id: screen-share-3
+    vocab_id: screen-share
+    prompt_ja: 画面共有が止まったので、もう一度お願いします。
+    blanked_en: The ____ stopped, so could you start it again?
+    answers:
+      - screen share
+    hint: screen share
+  - id: deployment-1
+    vocab_id: deployment
+    prompt_ja: 昨日、デプロイ完了しました。
+    blanked_en: I completed the ____ yesterday.
+    answers:
+      - deployment
+    hint: deployment
+  - id: deployment-2
+    vocab_id: deployment
+    prompt_ja: デプロイは、ピーク時間を避けてください。
+    blanked_en: Please avoid a ____ during peak hours.
+    answers:
+      - deployment
+    hint: deployment
+  - id: deployment-3
+    vocab_id: deployment
+    prompt_ja: カナリアデプロイで、エラー率が上がっています。
+    blanked_en: The error rate is going up during the canary ____.
+    answers:
+      - deployment
+    hint: deployment
+  - id: operation-check-1
+    vocab_id: operation-check
+    prompt_ja: 動作確認はいつしますか。
+    blanked_en: When are you going to ____?
+    answers:
+      - test the operation
+    hint: checking or testing operation
+  - id: operation-check-2
+    vocab_id: operation-check
+    prompt_ja: デプロイ後に、動作確認をお願いします。
+    blanked_en: Please do an ____ after the deployment.
+    answers:
+      - operation check
+    hint: checking or testing operation
+  - id: operation-check-3
+    vocab_id: operation-check
+    prompt_ja: 動作確認が終わるまで、フラグはオンにしないでください。
+    blanked_en: Don't turn the flag on until we finish ____.
+    answers:
+      - checking the operation
+    hint: checking or testing operation
+  - id: implement-1
+    vocab_id: implement
+    prompt_ja: これは来週実装します。
+    blanked_en: We're going to ____ this next week.
+    answers:
+      - implement
+    hint: implement
+  - id: implement-2
+    vocab_id: implement
+    prompt_ja: リトライは、もう実装済みです。
+    blanked_en: Retries have already been ____.
+    answers:
+      - implemented
+    hint: implement
+  - id: implement-3
+    vocab_id: implement
+    prompt_ja: この要件を、今のAPIで実装できますか。
+    blanked_en: Can we ____ this requirement with the current API?
+    answers:
+      - implement
+    hint: implement
+  - id: be-stable-1
+    vocab_id: be-stable
+    prompt_ja: バグを直したので、今は安定しています。
+    blanked_en: It's ____ now since I've resolved the bugs.
+    answers:
+      - stable
+    hint: be stable
+  - id: be-stable-2
+    vocab_id: be-stable
+    prompt_ja: エラー率が下がって、サービスは安定しています。
+    blanked_en: The error rate dropped, and the service is ____.
+    answers:
+      - stable
+    hint: be stable
+  - id: be-stable-3
+    vocab_id: be-stable
+    prompt_ja: カナリアが安定しているので、全体に広げます。
+    blanked_en: The canary is ____, so we'll roll it out fully.
+    answers:
+      - stable
+    hint: be stable
+  - id: occur-1
+    vocab_id: occur
+    prompt_ja: オンコールのときに、問題が発生しました。
+    blanked_en: An issue ____ when I was on call.
+    answers:
+      - occurred
+    hint: occur
+  - id: occur-2
+    vocab_id: occur
+    prompt_ja: 同じエラーが、夜間バッチでも発生しています。
+    blanked_en: The same error is ____ in the nightly batch as well.
+    answers:
+      - occurring
+    hint: occur
+  - id: occur-3
+    vocab_id: occur
+    prompt_ja: デプロイ中にタイムアウトが発生したら、自動でロールバックします。
+    blanked_en: If a timeout ____ during the deploy, we'll roll back automatically.
+    answers:
+      - occurs
+    hint: occur
+  - id: deal-with-1
+    vocab_id: deal-with
+    prompt_ja: これは他のチームが対応してくれるので、うちのチームはしなくていいです。
+    blanked_en: For this issue, our team doesn't need to ____ it since another team will.
+    answers:
+      - deal with
+    hint: deal with, handle
+  - id: deal-with-2
+    vocab_id: deal-with
+    prompt_ja: このアラートは、オンコールが対応します。
+    blanked_en: The on-call engineer will ____ this alert.
+    answers:
+      - handle
+    hint: deal with, handle
+  - id: deal-with-3
+    vocab_id: deal-with
+    prompt_ja: 週末に発生した障害は、もう対応済みですか。
+    blanked_en: Has the weekend incident already been ____?
+    answers:
+      - dealt with
+    hint: deal with, handle
+  - id: delete-1
+    vocab_id: delete
+    prompt_ja: Jiraに同じ内容のチケットが2つあるので、こっちは削除しますね。
+    blanked_en: I'll ____ this because there are two tickets with the same content on Jira.
+    answers:
+      - delete
+    hint: delete
+  - id: delete-2
+    vocab_id: delete
+    prompt_ja: 使っていないフィーチャーフラグは削除しましょう。
+    blanked_en: Let's ____ unused feature flags.
+    answers:
+      - delete
+    hint: delete
+  - id: delete-3
+    vocab_id: delete
+    prompt_ja: 本番データは、承認なしで削除しないでください。
+    blanked_en: Don't ____ production data without approval.
+    answers:
+      - delete
+    hint: delete
+  - id: save-1
+    vocab_id: save
+    prompt_ja: すみません、修正したあと、保存し忘れました。
+    blanked_en: Sorry, I forgot to ____ it after I fixed it.
+    answers:
+      - save
+    hint: save
+  - id: save-2
+    vocab_id: save
+    prompt_ja: 設定を変えたら、保存してから再起動してください。
+    blanked_en: After you change the settings, ____ them before restarting.
+    answers:
+      - save
+    hint: save
+  - id: save-3
+    vocab_id: save
+    prompt_ja: 下書きは自動保存されますか。
+    blanked_en: Are drafts ____ automatically?
+    answers:
+      - saved
+    hint: save
+  - id: consider-1
+    vocab_id: consider
+    prompt_ja: ロールバックのやり方は今検討中です。
+    blanked_en: We're now ____ how to roll it back.
+    answers:
+      - thinking about
+    hint: consider, think about
+  - id: consider-2
+    vocab_id: consider
+    prompt_ja: キャッシュ導入は、来四半期に検討します。
+    blanked_en: We'll ____ introducing a cache next quarter.
+    answers:
+      - consider
+    hint: consider, think about
+  - id: consider-3
+    vocab_id: consider
+    prompt_ja: 別案も検討した方がいいです。
+    blanked_en: We should ____ an alternative as well.
+    answers:
+      - consider
+    hint: consider, think about
+  - id: be-related-to-1
+    vocab_id: be-related-to
+    prompt_ja: このチケットに関係してる人って、誰だっけ？
+    blanked_en: Who's the person ____ this ticket?
+    answers:
+      - related to
+    hint: be related to
+  - id: be-related-to-2
+    vocab_id: be-related-to
+    prompt_ja: この障害は、昨日のデプロイに関係しています。
+    blanked_en: This incident is ____ yesterday's deployment.
+    answers:
+      - related to
+    hint: be related to
+  - id: be-related-to-3
+    vocab_id: be-related-to
+    prompt_ja: 関係するチームにも、変更を共有してください。
+    blanked_en: Please share the change with the ____ teams as well.
+    answers:
+      - related
+    hint: be related to
+  - id: continue-1
+    vocab_id: continue
+    prompt_ja: weekly syncミーティングは、今後も継続していきましょう。
+    blanked_en: Let's ____ the weekly sync meetings as we've been doing.
+    answers:
+      - continue
+    hint: continue
+  - id: continue-2
+    vocab_id: continue
+    prompt_ja: カナリアは問題ないので、ロールアウトを継続します。
+    blanked_en: The canary looks fine, so we'll ____ the rollout.
+    answers:
+      - continue
+    hint: continue
+  - id: continue-3
+    vocab_id: continue
+    prompt_ja: この実験は、来スプリントも継続しますか。
+    blanked_en: Will we ____ this experiment next sprint as well?
+    answers:
+      - continue
+    hint: continue
+  - id: measure-1
+    vocab_id: measure
+    prompt_ja: この目標を達成したかどうかを、どうやって測りますか。
+    blanked_en: How do you ____ if you've achieved your goal or not?
+    answers:
+      - measure
+    hint: measure
+  - id: measure-2
+    vocab_id: measure
+    prompt_ja: レイテンシは、p99で測っています。
+    blanked_en: We ____ latency at p99.
+    answers:
+      - measure
+    hint: measure
+  - id: measure-3
+    vocab_id: measure
+    prompt_ja: 効果を測らないと、フラグを残すべきかわかりません。
+    blanked_en: Without ____ the impact, we can't tell whether to keep the flag.
+    answers:
+      - measuring
+    hint: measure
+  - id: search-1
+    vocab_id: search
+    prompt_ja: この画面は検索しにくいですね。
+    blanked_en: This screen layout makes it difficult to ____.
+    answers:
+      - search
+    hint: search
+  - id: search-2
+    vocab_id: search
+    prompt_ja: ログを検索して、エラーの初出を探します。
+    blanked_en: I'll ____ the logs to find when the error first appeared.
+    answers:
+      - search
+    hint: search
+  - id: search-3
+    vocab_id: search
+    prompt_ja: チケット番号で検索できますか。
+    blanked_en: Can we ____ by ticket number?
+    answers:
+      - search
+    hint: search
+  - id: period-1
+    vocab_id: period
+    prompt_ja: リリースの時期は、調整中です。
+    blanked_en: The release ____ is being adjusted.
+    answers:
+      - period
+    hint: period, season
+  - id: period-2
+    vocab_id: period
+    prompt_ja: セールの時期は、デプロイを止めます。
+    blanked_en: We'll freeze deploys during the sale ____.
+    answers:
+      - season
+    hint: period, season
+  - id: period-3
+    vocab_id: period
+    prompt_ja: 移行の時期を、来四半期にずらせますか。
+    blanked_en: Can we shift the migration ____ to next quarter?
+    answers:
+      - period
+    hint: period, season
+  - id: undecided-1
+    vocab_id: undecided
+    prompt_ja: スケジュールは未確定です。
+    blanked_en: The schedule is still ____.
+    answers:
+      - undecided
+    hint: undecided
+  - id: undecided-2
+    vocab_id: undecided
+    prompt_ja: 担当チームは未確定なので、キックオフは待ってください。
+    blanked_en: The owning team is ____, so please wait on the kickoff.
+    answers:
+      - undecided
+    hint: undecided
+  - id: undecided-3
+    vocab_id: undecided
+    prompt_ja: 未確定の要件は、バックログに分けておきましょう。
+    blanked_en: Let's separate the ____ requirements into the backlog.
+    answers:
+      - undecided
+    hint: undecided
+  - id: shortage-1
+    vocab_id: shortage
+    prompt_ja: チーム内のコミュニケーション不足が、問題になっています。
+    blanked_en: The ____ communication among team members is becoming a problem.
+    answers:
+      - lack of
+    hint: shortage, lack of
+  - id: shortage-2
+    vocab_id: shortage
+    prompt_ja: QAリソースの不足で、リリースが遅れそうです。
+    blanked_en: We're likely to miss the release because of a ____ of QA resources.
+    answers:
+      - shortage
+    hint: shortage, lack of
+  - id: shortage-3
+    vocab_id: shortage
+    prompt_ja: テスト不足が、今回の障害の原因です。
+    blanked_en: A ____ tests caused this incident.
+    answers:
+      - lack of
+    hint: shortage, lack of
+  - id: room-to-spare-1
+    vocab_id: room-to-spare
+    prompt_ja: 今月はリリースが多くて、みんな余裕があんまりない。
+    blanked_en: We don't have ____ since we have a lot of releases this month.
+    answers:
+      - time to spare
+    hint: time/money/space to spare
+  - id: room-to-spare-2
+    vocab_id: room-to-spare
+    prompt_ja: バッファに余裕がないので、スコープを減らしましょう。
+    blanked_en: There's no ____ in the buffer, so let's cut scope.
+    answers:
+      - room to spare
+    hint: time/money/space to spare
+  - id: room-to-spare-3
+    vocab_id: room-to-spare
+    prompt_ja: 今は余裕があるので、リファクタを進められます。
+    blanked_en: We have some ____ now, so we can work on the refactor.
+    answers:
+      - room to spare
+    hint: time/money/space to spare
+  - id: normal-1
+    vocab_id: normal
+    prompt_ja: システムが正常に動いてないので、今日中に鈴木さんが確認する予定です。
+    blanked_en: Since the system isn't working ____, Suzuki-san is going to check on it today.
+    answers:
+      - normally
+    hint: normal, normally
+  - id: normal-2
+    vocab_id: normal
+    prompt_ja: エラー率は正常に戻りました。
+    blanked_en: The error rate is back to ____.
+    answers:
+      - normal
+    hint: normal, normally
+  - id: normal-3
+    vocab_id: normal
+    prompt_ja: ヘルスチェックが正常になるまで、トラフィックを戻さないでください。
+    blanked_en: Don't send traffic back until the health check is ____.
+    answers:
+      - normal
+    hint: normal, normally
+  - id: top-priority-1
+    vocab_id: top-priority
+    prompt_ja: これはリリースが来週なので、最優先で進めたほうがいいと思います。
+    blanked_en: I think it's better to make this the ____ because the release is next week.
+    answers:
+      - top priority
+    hint: top priority
+  - id: top-priority-2
+    vocab_id: top-priority
+    prompt_ja: データ不整合の調査を、最優先にしてください。
+    blanked_en: Please treat the data-inconsistency investigation as the ____.
+    answers:
+      - top priority
+    hint: top priority
+  - id: top-priority-3
+    vocab_id: top-priority
+    prompt_ja: 今の最優先は、障害からの復旧です。
+    blanked_en: Our ____ right now is recovering from the incident.
+    answers:
+      - top priority
+    hint: top priority
+  - id: directly-1
+    vocab_id: directly
+    prompt_ja: 困ったことがあったら、直接マネージャーに相談してください。
+    blanked_en: Please talk to your manager ____ if you have any problems.
+    answers:
+      - directly
+    hint: directly
+  - id: directly-2
+    vocab_id: directly
+    prompt_ja: このサービスは、データベースに直接アクセスしています。
+    blanked_en: This service accesses the database ____.
+    answers:
+      - directly
+    hint: directly
+  - id: directly-3
+    vocab_id: directly
+    prompt_ja: ユーザーに直接影響する変更なので、カナリアにします。
+    blanked_en: We'll canary this because the change affects users ____.
+    answers:
+      - directly
+    hint: directly
+  - id: in-the-middle-1
+    vocab_id: in-the-middle
+    prompt_ja: 今、このチケットをやってる途中ですか。
+    blanked_en: Are you ____ working on this ticket?
+    answers:
+      - in the middle of
+    hint: in the middle of, halfway
+  - id: in-the-middle-2
+    vocab_id: in-the-middle
+    prompt_ja: マイグレーションの途中で、ジョブが落ちました。
+    blanked_en: The job died ____ the migration.
+    answers:
+      - in the middle of
+    hint: in the middle of, halfway
+  - id: in-the-middle-3
+    vocab_id: in-the-middle
+    prompt_ja: 実装は途中まで終わっているので、明日引き継げます。
+    blanked_en: The implementation is ____ done, so I can hand it over tomorrow.
+    answers:
+      - halfway
+    hint: in the middle of, halfway
+  - id: process-1
+    vocab_id: process
+    prompt_ja: 返金処理は、昨日完了しました。
+    blanked_en: I completed the refund ____ yesterday.
+    answers:
+      - process
+    hint: process, processing
+  - id: process-2
+    vocab_id: process
+    prompt_ja: 返金処理は、いつ完了しそうですか。
+    blanked_en: When do you think we'll finish ____ the refund?
+    answers:
+      - processing
+    hint: process, processing
+  - id: process-3
+    vocab_id: process
+    prompt_ja: このバッチ処理は、ピーク時には回さないでください。
+    blanked_en: Don't run this batch ____ during peak hours.
+    answers:
+      - process
+    hint: process, processing
+  - id: concentrate-1
+    vocab_id: concentrate
+    prompt_ja: サイトへのアクセスは、どの時間帯が一番集中しますか。
+    blanked_en: What time is access to the site most ____?
+    answers:
+      - concentrated
+    hint: concentrate, be concentrated
+  - id: concentrate-2
+    vocab_id: concentrate
+    prompt_ja: 午後は実装に集中したいので、ミーティングを午前に寄せてください。
+    blanked_en: I want to ____ implementation in the afternoon, so please keep meetings in the morning.
+    answers:
+      - concentrate on
+    hint: concentrate, be concentrated
+  - id: concentrate-3
+    vocab_id: concentrate
+    prompt_ja: 夜中にアクセスが集中して、サービスが一時的に落ちました。
+    blanked_en: The service went down temporarily late last night because traffic was ____.
+    answers:
+      - concentrated
+    hint: concentrate, be concentrated
+  - id: delay-1
+    vocab_id: delay
+    prompt_ja: 昨日の夜、システムに遅延が発生しました。
+    blanked_en: A system ____ happened last night.
+    answers:
+      - delay
+    hint: delay
+  - id: delay-2
+    vocab_id: delay
+    prompt_ja: キューが遅延しているので、ワーカーを増やします。
+    blanked_en: The queue is ____, so I'll add more workers.
+    answers:
+      - delayed
+    hint: delay
+  - id: delay-3
+    vocab_id: delay
+    prompt_ja: デプロイが遅延したら、ステータスページを更新してください。
+    blanked_en: If the deployment is ____, please update the status page.
+    answers:
+      - delayed
+    hint: delay
+  - id: work-on-task-1
+    vocab_id: work-on-task
+    prompt_ja: 明日、バージョンアップする作業をします。
+    blanked_en: I'll ____ updating this tomorrow.
+    answers:
+      - work on
+    hint: work
+  - id: work-on-task-2
+    vocab_id: work-on-task
+    prompt_ja: 本番作業は、ペアでやってください。
+    blanked_en: Please do production ____ in pairs.
+    answers:
+      - work
+    hint: work
+  - id: work-on-task-3
+    vocab_id: work-on-task
+    prompt_ja: この作業は、メンテウィンドウに入れましょう。
+    blanked_en: Let's put this ____ in the maintenance window.
+    answers:
+      - work
+    hint: work
+  - id: be-in-charge-of-1
+    vocab_id: be-in-charge-of
+    prompt_ja: この業務は、どこのチームが担当してるか知ってる？
+    blanked_en: Do you know which team is ____ this work?
+    answers:
+      - responsible for
+    hint: be responsible for, be in charge of
+  - id: be-in-charge-of-2
+    vocab_id: be-in-charge-of
+    prompt_ja: 決済APIは、私が担当しています。
+    blanked_en: I'm ____ the payment API.
+    answers:
+      - in charge of
+    hint: be responsible for, be in charge of
+  - id: be-in-charge-of-3
+    vocab_id: be-in-charge-of
+    prompt_ja: オンコール当番は、今週Kenさんが担当です。
+    blanked_en: Ken is ____ on-call this week.
+    answers:
+      - in charge of
+    hint: be responsible for, be in charge of
+  - id: add-1
+    vocab_id: add
+    prompt_ja: 話したいトピックがある人は、議事録に追加しておいてくださいね。
+    blanked_en: Please ____ the topics you want to talk about to the notes.
+    answers:
+      - add
+    hint: add
+  - id: add-2
+    vocab_id: add
+    prompt_ja: リトライを追加して、一時障害に強くします。
+    blanked_en: I'll ____ retries to make it more resilient to blips.
+    answers:
+      - add
+    hint: add
+  - id: add-3
+    vocab_id: add
+    prompt_ja: スコープを追加するなら、何か落とす必要があります。
+    blanked_en: If we ____ scope, we need to drop something else.
+    answers:
+      - add
+    hint: add
+  - id: propose-1
+    vocab_id: propose
+    prompt_ja: 何か提案がある人は、明日までに私にDMしてください。
+    blanked_en: If you want to ____ anything, please DM me by tomorrow.
+    answers:
+      - suggest
+    hint: propose, suggest
+  - id: propose-2
+    vocab_id: propose
+    prompt_ja: キャッシュ層の導入を提案します。
+    blanked_en: I'd like to ____ introducing a cache layer.
+    answers:
+      - propose
+    hint: propose, suggest
+  - id: propose-3
+    vocab_id: propose
+    prompt_ja: 代替案を提案してもらえますか。
+    blanked_en: Could you ____ an alternative?
+    answers:
+      - propose
+    hint: propose, suggest
+  - id: introduce-1
+    vocab_id: introduce
+    prompt_ja: 新しいサービスを導入する時期はまだ決まってません。
+    blanked_en: The timing of ____ the new service hasn't been decided yet.
+    answers:
+      - introducing
+    hint: implement, introduce
+  - id: introduce-2
+    vocab_id: introduce
+    prompt_ja: 来四半期に、フィーチャーフラグ基盤を導入します。
+    blanked_en: We'll ____ a feature-flag platform next quarter.
+    answers:
+      - introduce
+    hint: implement, introduce
+  - id: introduce-3
+    vocab_id: introduce
+    prompt_ja: 新しい監視ツールは、すでに一部チームで導入されています。
+    blanked_en: The new monitoring tool has already been ____ in some teams.
+    answers:
+      - introduced
+    hint: implement, introduce
+  - id: go-down-1
+    vocab_id: go-down
+    prompt_ja: 夜中にアクセスが集中して、サービスが一時的に落ちました。
+    blanked_en: The service ____ temporarily late last night because of a spike in access.
+    answers:
+      - went down
+    hint: drop, go down
+  - id: go-down-2
+    vocab_id: go-down
+    prompt_ja: プライマリDBが落ちたら、自動でフェイルオーバーします。
+    blanked_en: If the primary DB ____, it will fail over automatically.
+    answers:
+      - goes down
+    hint: drop, go down
+  - id: go-down-3
+    vocab_id: go-down
+    prompt_ja: エラー率が急に落ちたので、デプロイの影響を疑っています。
+    blanked_en: The error rate ____ suddenly, so I suspect the deploy.
+    answers:
+      - dropped
+    hint: drop, go down
+  - id: move-1
+    vocab_id: move
+    prompt_ja: 今Q対応しないチケットは、次のSprintに移動しておきます。
+    blanked_en: Tickets that we won't deal with this quarter will be ____ to the next sprint.
+    answers:
+      - moved
+    hint: move, shift
+  - id: move-2
+    vocab_id: move
+    prompt_ja: このミーティングを、午後に移動できますか。
+    blanked_en: Can we ____ this meeting to the afternoon?
+    answers:
+      - move
+    hint: move, shift
+  - id: move-3
+    vocab_id: move
+    prompt_ja: 負荷を別クラスタへ移動して、影響を止めます。
+    blanked_en: I'll ____ the load to another cluster to stop the impact.
+    answers:
+      - shift
+    hint: move, shift
+  - id: schedule-conflict-1
+    vocab_id: schedule-conflict
+    prompt_ja: すみません、他のミーティングと被ってるので、明日のスタンドアップに参加できません。
+    blanked_en: Sorry, I can't join tomorrow's standup because of a ____.
+    answers:
+      - schedule conflict
+    hint: have a schedule conflict
+  - id: schedule-conflict-2
+    vocab_id: schedule-conflict
+    prompt_ja: 1on1と障害対応が被りそうです。
+    blanked_en: My 1-on-1 is going to have a ____ with incident response.
+    answers:
+      - schedule conflict
+    hint: have a schedule conflict
+  - id: schedule-conflict-3
+    vocab_id: schedule-conflict
+    prompt_ja: デプロイとメンテウィンドウが被らないようにしてください。
+    blanked_en: Please make sure the deploy doesn't have a ____ with the maintenance window.
+    answers:
+      - schedule conflict
+    hint: have a schedule conflict
+  - id: leave-the-meeting-1
+    vocab_id: leave-the-meeting
+    prompt_ja: すみません、次のミーティングがあるので、先に抜けますね。
+    blanked_en: Sorry, I need to ____ now because I have another meeting.
+    answers:
+      - leave the meeting
+    hint: leave the meeting
+  - id: leave-the-meeting-2
+    vocab_id: leave-the-meeting
+    prompt_ja: 途中で抜けても大丈夫です。
+    blanked_en: It's fine if you ____ early.
+    answers:
+      - leave the meeting
+    hint: leave the meeting
+  - id: leave-the-meeting-3
+    vocab_id: leave-the-meeting
+    prompt_ja: オンコール対応のため、このあと抜けます。
+    blanked_en: I'll ____ after this for on-call work.
+    answers:
+      - leave the meeting
+    hint: leave the meeting
+  - id: quite-1
+    vocab_id: quite
+    prompt_ja: 来月はけっこう忙しくなると思うので、みなさん、今のうちにゆっくり休んでくださいね。
+    blanked_en: Please take it easy now since we're going to be ____ busy next month.
+    answers:
+      - quite
+    hint: quite
+  - id: quite-2
+    vocab_id: quite
+    prompt_ja: このクエリは、けっこう重いです。
+    blanked_en: This query is ____ heavy.
+    answers:
+      - quite
+    hint: quite
+  - id: quite-3
+    vocab_id: quite
+    prompt_ja: レビューコメントがけっこう残っているので、今日中はマージしない方がいいです。
+    blanked_en: There are ____ a few review comments left, so we shouldn't merge today.
+    answers:
+      - quite
+    hint: quite
+  - id: barely-1
+    vocab_id: barely
+    prompt_ja: このチケットはギリギリになりそうですが、締切までに終わると思います。
+    blanked_en: It'll be really tight, but I think I'll just ____ get the ticket done by the deadline.
+    answers:
+      - barely
+    hint: at the last moment, barely
+  - id: barely-2
+    vocab_id: barely
+    prompt_ja: デプロイウィンドウに、ギリギリ間に合いました。
+    blanked_en: We ____ made the deploy window.
+    answers:
+      - barely
+    hint: at the last moment, barely
+  - id: barely-3
+    vocab_id: barely
+    prompt_ja: リリース直前のギリギリで入れるのはやめましょう。
+    blanked_en: Let's not land this ____ before the release.
+    answers:
+      - at the last moment
+    hint: at the last moment, barely
+  - id: basically-1
+    vocab_id: basically
+    prompt_ja: 基本的に、来Qのみなさんのアサインは、今Qと変更ありません。
+    blanked_en: ____, everyone's assignments won't change much from this quarter to next quarter.
+    answers:
+      - Basically
+    hint: basically
+  - id: basically-2
+    vocab_id: basically
+    prompt_ja: 基本的に、本番変更はPR経由です。
+    blanked_en: ____, production changes go through a pull request.
+    answers:
+      - Basically
+    hint: basically
+  - id: basically-3
+    vocab_id: basically
+    prompt_ja: このアラートは、基本的に無視して大丈夫です。
+    blanked_en: You can ____ ignore this alert.
+    answers:
+      - basically
+    hint: basically
+  - id: by-the-way-1
+    vocab_id: by-the-way
+    prompt_ja: ちなみに、いつぐらいまでにリリースの時期が決まるか、わかりますか。
+    blanked_en: ____, do you know when the release period will be decided?
+    answers:
+      - Also
+    hint: also, in addition, by the way
+  - id: by-the-way-2
+    vocab_id: by-the-way
+    prompt_ja: ちなみに、ステージングでは再現しませんでした。
+    blanked_en: ____, I couldn't reproduce it on staging.
+    answers:
+      - By the way
+    hint: also, in addition, by the way
+  - id: by-the-way-3
+    vocab_id: by-the-way
+    prompt_ja: ちなみに、関連するダッシュボードも貼っておきます。
+    blanked_en: ____, I'll paste the related dashboard.
+    answers:
+      - In addition
+    hint: also, in addition, by the way
+  - id: perspective-1
+    vocab_id: perspective
+    prompt_ja: お客様視点で考えてみて。
+    blanked_en: Think about it from the customer's ____.
+    answers:
+      - point of view
+    hint: point of view, perspective
+  - id: perspective-2
+    vocab_id: perspective
+    prompt_ja: 運用の視点だと、この設計は複雑すぎます。
+    blanked_en: From an operations ____, this design is too complex.
+    answers:
+      - perspective
+    hint: point of view, perspective
+  - id: perspective-3
+    vocab_id: perspective
+    prompt_ja: 開発者視点だけでなく、サポート視点でも見ましょう。
+    blanked_en: Let's look at it from a support ____, not only from a developer point of view.
+    answers:
+      - perspective
+    hint: point of view, perspective
+  - id: small-talk-1
+    vocab_id: small-talk
+    prompt_ja: まだ10分ぐらいあるので、ちょっと雑談でもしましょうか。
+    blanked_en: We still have about 10 minutes left, shall we just ____?
+    answers:
+      - chat
+    hint: small talk, chat
+  - id: small-talk-2
+    vocab_id: small-talk
+    prompt_ja: キックオフの最初に、短い雑談を入れています。
+    blanked_en: We start kickoffs with a bit of ____.
+    answers:
+      - small talk
+    hint: small talk, chat
+  - id: small-talk-3
+    vocab_id: small-talk
+    prompt_ja: 雑談は最後にして、先にブロッカーを確認しましょう。
+    blanked_en: Let's check blockers first and leave the ____ for the end.
+    answers:
+      - small talk
+    hint: small talk, chat
+  - id: phase-1
+    vocab_id: phase
+    prompt_ja: 今は、テストの準備をしている段階です。
+    blanked_en: I'm in the preparation ____ of the test now.
+    answers:
+      - phase
+    hint: phase
+  - id: phase-2
+    vocab_id: phase
+    prompt_ja: 移行は、読み取り専用の段階から始めます。
+    blanked_en: We'll start the migration from a read-only ____.
+    answers:
+      - phase
+    hint: phase
+  - id: phase-3
+    vocab_id: phase
+    prompt_ja: この段階では、まだ公開しない方がいいです。
+    blanked_en: We shouldn't make it public at this ____.
+    answers:
+      - phase
+    hint: phase
+  - id: existing-1
+    vocab_id: existing
+    prompt_ja: 既存のソースを見て、考えてみます。
+    blanked_en: I'll check the ____ sources and then think about it.
+    answers:
+      - existing
+    hint: existing
+  - id: existing-2
+    vocab_id: existing
+    prompt_ja: 既存APIを壊さないように、フィールドは追加だけにします。
+    blanked_en: To avoid breaking the ____ API, we'll only add fields.
+    answers:
+      - existing
+    hint: existing
+  - id: existing-3
+    vocab_id: existing
+    prompt_ja: 既存のアラートと重複していないか確認してください。
+    blanked_en: Please check that it doesn't overlap with ____ alerts.
+    answers:
+      - existing
+    hint: existing
+  - id: case-1
+    vocab_id: case
+    prompt_ja: 先週、それに似た事例がありました。
+    blanked_en: There was a similar ____ last week.
+    answers:
+      - case
+    hint: case
+  - id: case-2
+    vocab_id: case
+    prompt_ja: 過去の障害事例を、ポストモーテムから探します。
+    blanked_en: I'll look for past incident ____ in the postmortems.
+    answers:
+      - cases
+    hint: case
+  - id: case-3
+    vocab_id: case
+    prompt_ja: この事例を、チームのナレッジに残しましょう。
+    blanked_en: Let's keep this ____ in the team's knowledge base.
+    answers:
+      - case
+    hint: case
+  - id: quality-1
+    vocab_id: quality
+    prompt_ja: リリースを早めると、QAの品質を保つのは難しくなると思います。
+    blanked_en: I think it'll be difficult to maintain the QA ____ if we move the release date up.
+    answers:
+      - quality
+    hint: quality
+  - id: quality-2
+    vocab_id: quality
+    prompt_ja: テストを増やして、品質を上げましょう。
+    blanked_en: Let's add more tests to improve the ____.
+    answers:
+      - quality
+    hint: quality
+  - id: quality-3
+    vocab_id: quality
+    prompt_ja: 品質を落とさずに、スコープを減らすのが先です。
+    blanked_en: Cutting scope comes first, without lowering the ____.
+    answers:
+      - quality
+    hint: quality
+  - id: fault-1
+    vocab_id: fault
+    prompt_ja: 最近、障害が多く発生している。
+    blanked_en: A lot of ____ have been happening these days.
+    answers:
+      - system errors
+    hint: fault, system error
+  - id: fault-2
+    vocab_id: fault
+    prompt_ja: 昨夜の障害で、決済が30分止まりました。
+    blanked_en: Last night's ____ stopped payments for 30 minutes.
+    answers:
+      - fault
+    hint: fault, system error
+  - id: fault-3
+    vocab_id: fault
+    prompt_ja: 障害の一次報告は、5分以内に出してください。
+    blanked_en: Please send the first incident report for the ____ within 5 minutes.
+    answers:
+      - fault
+    hint: fault, system error
+  - id: critical-1
+    vocab_id: critical
+    prompt_ja: 今のところ、クリティカルな障害は起きてません。
+    blanked_en: There are no ____ failures yet.
+    answers:
+      - critical
+    hint: critical
+  - id: critical-2
+    vocab_id: critical
+    prompt_ja: 決済はクリティカルなパスなので、慎重に出します。
+    blanked_en: Payments are a ____ path, so we'll ship carefully.
+    answers:
+      - critical
+    hint: critical
+  - id: critical-3
+    vocab_id: critical
+    prompt_ja: このバグはクリティカルですか、それとも軽微ですか。
+    blanked_en: Is this bug ____, or is it minor?
+    answers:
+      - critical
+    hint: critical
+  - id: behavior-1
+    vocab_id: behavior
+    prompt_ja: ちょっと待って、Chromeの挙動がおかしい。
+    blanked_en: Hold on, Chrome is ____ weird.
+    answers:
+      - acting
+    hint: behavior
+  - id: behavior-2
+    vocab_id: behavior
+    prompt_ja: リトライの挙動を、ドキュメントに書いてください。
+    blanked_en: Please document the retry ____.
+    answers:
+      - behavior
+    hint: behavior
+  - id: behavior-3
+    vocab_id: behavior
+    prompt_ja: キャッシュを入れると、このAPIの挙動が変わります。
+    blanked_en: Adding a cache will change this API's ____.
+    answers:
+      - behavior
+    hint: behavior
+  - id: thing-casual-1
+    vocab_id: thing-casual
+    prompt_ja: 来週QAする予定のやつ、ある？
+    blanked_en: Is there ____ you plan to do QA for next week?
+    answers:
+      - something
+    hint: thing
+  - id: thing-casual-2
+    vocab_id: thing-casual
+    prompt_ja: 昨日話してたやつ、もう直しました。
+    blanked_en: I already fixed that ____ we talked about yesterday.
+    answers:
+      - thing
+    hint: thing
+  - id: thing-casual-3
+    vocab_id: thing-casual
+    prompt_ja: アラートのやつ、チャンネルに貼ってもらえますか。
+    blanked_en: Can you paste that alert ____ in the channel?
+    answers:
+      - thing
+    hint: thing
+  - id: create-1
+    vocab_id: create
+    prompt_ja: リリースまでのスケジュールを作成したので、まだ見てない人は今日中に確認してください。
+    blanked_en: I've ____ a schedule for the next release, so please check it by the end of today if you haven't.
+    answers:
+      - made
+    hint: make, create
+  - id: create-2
+    vocab_id: create
+    prompt_ja: ランブックを作成して、オンコールに渡します。
+    blanked_en: I'll ____ a runbook and hand it to the on-call rotation.
+    answers:
+      - create
+    hint: make, create
+  - id: create-3
+    vocab_id: create
+    prompt_ja: 設計ドキュメントは、誰が作成しますか。
+    blanked_en: Who will ____ the design doc?
+    answers:
+      - create
+    hint: make, create
+  - id: design-1
+    vocab_id: design
+    prompt_ja: ABテストを設計するときの注意点については、ここを読んどいてください。
+    blanked_en: Please check here for the important points about ____ AB tests.
+    answers:
+      - planning
+    hint: plan, design
+  - id: design-2
+    vocab_id: design
+    prompt_ja: 新しいAPIを設計する前に、既存の契約を確認します。
+    blanked_en: I'll review the existing contracts before we ____ the new API.
+    answers:
+      - design
+    hint: plan, design
+  - id: design-3
+    vocab_id: design
+    prompt_ja: このワークフローは、障害を想定して設計されていますか。
+    blanked_en: Was this workflow ____ with failures in mind?
+    answers:
+      - designed
+    hint: plan, design
+  - id: roll-out-1
+    vocab_id: roll-out
+    prompt_ja: この資料は、全メンバーに展開されています。
+    blanked_en: This document is now ____ everyone.
+    answers:
+      - open to
+    hint: expand, roll out, share with
+  - id: roll-out-2
+    vocab_id: roll-out
+    prompt_ja: 新しいダッシュボードを、全チームに展開しました。
+    blanked_en: We've ____ the new dashboard to every team.
+    answers:
+      - rolled out
+    hint: expand, roll out, share with
+  - id: roll-out-3
+    vocab_id: roll-out
+    prompt_ja: この変更は、まず1リージョンに展開します。
+    blanked_en: We'll ____ this change to one region first.
+    answers:
+      - roll out
+    hint: expand, roll out, share with
+  - id: decide-details-1
+    vocab_id: decide-details
+    prompt_ja: この件、もう少し詰めた方がいいですね。
+    blanked_en: We should think about this more in order to ____.
+    answers:
+      - decide the details
+    hint: decide details
+  - id: decide-details-2
+    vocab_id: decide-details
+    prompt_ja: エラーハンドリングの方針を、今日中に詰めましょう。
+    blanked_en: Let's ____ of the error-handling policy today.
+    answers:
+      - decide the details
+    hint: decide details
+  - id: decide-details-3
+    vocab_id: decide-details
+    prompt_ja: まだ移行手順が詰まっていないので、見積もりは粗いです。
+    blanked_en: The estimate is rough because we haven't ____ of the migration steps yet.
+    answers:
+      - decided the details
+    hint: decide details
+  - id: delegate-1
+    vocab_id: delegate
+    prompt_ja: このプロジェクトは、佐藤さんに任せました。
+    blanked_en: I've ____ this project to Sato-san.
+    answers:
+      - delegated
+    hint: delegate, leave something with someone
+  - id: delegate-2
+    vocab_id: delegate
+    prompt_ja: アラート設計は、SREに任せましょう。
+    blanked_en: Let's ____ the alert design with the SRE team.
+    answers:
+      - leave
+    hint: delegate, leave something with someone
+  - id: delegate-3
+    vocab_id: delegate
+    prompt_ja: この調査、任せて大丈夫ですか。
+    blanked_en: Can I ____ this investigation to you?
+    answers:
+      - delegate
+    hint: delegate, leave something with someone
+  - id: estimate-1
+    vocab_id: estimate
+    prompt_ja: 見積もると、だいたいトータルで2ヶ月かかります。
+    blanked_en: I ____ it will take about 2 months in total.
+    answers:
+      - estimate
+    hint: estimate
+  - id: estimate-2
+    vocab_id: estimate
+    prompt_ja: 工数を見積もる前に、不明点を洗い出しましょう。
+    blanked_en: Let's list the unknowns before we ____ the effort.
+    answers:
+      - estimate
+    hint: estimate
+  - id: estimate-3
+    vocab_id: estimate
+    prompt_ja: この見積もりは、まだかなり粗いです。
+    blanked_en: This ____ is still quite rough.
+    answers:
+      - estimate
+    hint: estimate
+  - id: link-1
+    vocab_id: link
+    prompt_ja: この情報は、お客様IDに紐づいています。
+    blanked_en: This information is ____ the customer ID.
+    answers:
+      - linked to
+    hint: link, be associated with
+  - id: link-2
+    vocab_id: link
+    prompt_ja: このトレースは、どのデプロイに紐づきますか。
+    blanked_en: Which deploy is this trace ____?
+    answers:
+      - linked to
+    hint: link, be associated with
+  - id: link-3
+    vocab_id: link
+    prompt_ja: チケットがPRに紐づいていないので、追跡しにくいです。
+    blanked_en: It's hard to trace because the ticket isn't ____ a pull request.
+    answers:
+      - linked to
+    hint: link, be associated with
+  - id: like-this-1
+    vocab_id: like-this
+    prompt_ja: こんな感じです。
+    blanked_en: It's ____.
+    answers:
+      - like this
+    hint: like [something]
+  - id: like-this-2
+    vocab_id: like-this
+    prompt_ja: エラーメッセージは、こんな感じで出ています。
+    blanked_en: The error message looks ____.
+    answers:
+      - like this
+    hint: like [something]
+  - id: like-this-3
+    vocab_id: like-this
+    prompt_ja: タイムラインは、こんな感じで共有すれば十分です。
+    blanked_en: Sharing the timeline ____ should be enough.
+    answers:
+      - like this
+    hint: like [something]
+  - id: besides-1
+    vocab_id: besides
+    prompt_ja: ここに書いてあるトピック以外に、何か話したいことありますか。
+    blanked_en: Is there anything else you want to talk about ____ the topics written here?
+    answers:
+      - besides
+    hint: besides, except
+  - id: besides-2
+    vocab_id: besides
+    prompt_ja: 決済以外のAPIは、今回の影響を受けません。
+    blanked_en: APIs ____ payments are not affected this time.
+    answers:
+      - except
+    hint: besides, except
+  - id: besides-3
+    vocab_id: besides
+    prompt_ja: オンコール以外の人は、インシデントチャンネルから外れても大丈夫です。
+    blanked_en: Anyone ____ the on-call can leave the incident channel.
+    answers:
+      - besides
+    hint: besides, except
+  - id: at-the-same-time-1
+    vocab_id: at-the-same-time
+    prompt_ja: 同時に担当できるプロジェクトの数には限界があります。
+    blanked_en: There's a limit to the number of projects we can handle ____.
+    answers:
+      - at the same time
+    hint: at the same time, simultaneously
+  - id: at-the-same-time-2
+    vocab_id: at-the-same-time
+    prompt_ja: マイグレーションとスキーマ変更は、同時にやらないでください。
+    blanked_en: Please don't run the migration and the schema change ____.
+    answers:
+      - simultaneously
+    hint: at the same time, simultaneously
+  - id: at-the-same-time-3
+    vocab_id: at-the-same-time
+    prompt_ja: 同じキーを同時に更新すると、競合します。
+    blanked_en: Updating the same key ____ will cause a conflict.
+    answers:
+      - at the same time
+    hint: at the same time, simultaneously
+  - id: after-all-1
+    vocab_id: after-all
+    prompt_ja: これを解決しておかないと、結局、リリース直前に問題が出てくる。
+    blanked_en: If we don't solve this problem, ____ it'll happen just before the release.
+    answers:
+      - in the end
+    hint: after all, in the end
+  - id: after-all-2
+    vocab_id: after-all
+    prompt_ja: 結局、ロールバックした方が早いです。
+    blanked_en: ____, rolling back will be faster.
+    answers:
+      - After all
+    hint: after all, in the end
+  - id: after-all-3
+    vocab_id: after-all
+    prompt_ja: 議論したけど、結局もともとの案に戻しました。
+    blanked_en: We discussed it, but ____ we went back to the original proposal.
+    answers:
+      - in the end
+    hint: after all, in the end
+  - id: mostly-1
+    vocab_id: mostly
+    prompt_ja: このチケットはほぼ終わりました。
+    blanked_en: I've ____ finished this ticket.
+    answers:
+      - mostly
+    hint: mostly
+  - id: mostly-2
+    vocab_id: mostly
+    prompt_ja: 移行はほぼ完了で、残は検証だけです。
+    blanked_en: The migration is ____ done; only verification remains.
+    answers:
+      - mostly
+    hint: mostly
+  - id: mostly-3
+    vocab_id: mostly
+    prompt_ja: アラートはほぼ誤検知なので、しきい値を見直します。
+    blanked_en: The alerts are ____ false positives, so I'll revise the threshold.
+    answers:
+      - mostly
+    hint: mostly
+  - id: in-the-first-place-1
+    vocab_id: in-the-first-place
+    prompt_ja: そもそも、このミーティングの目的はなんでしたっけ？
+    blanked_en: What was the point of this meeting ____?
+    answers:
+      - in the first place
+    hint: in the first place
+  - id: in-the-first-place-2
+    vocab_id: in-the-first-place
+    prompt_ja: そもそも、このAPIを公開する必要はありますか。
+    blanked_en: Do we need to expose this API ____?
+    answers:
+      - in the first place
+    hint: in the first place
+  - id: in-the-first-place-3
+    vocab_id: in-the-first-place
+    prompt_ja: そもそも要件が違うので、実装を直しても意味がありません。
+    blanked_en: The requirements are different ____, so fixing the implementation won't help.
+    answers:
+      - in the first place
+    hint: in the first place
+  - id: one-after-another-1
+    vocab_id: one-after-another
+    prompt_ja: どんどん意見を言ってくださいね。
+    blanked_en: Let's all share our opinions ____.
+    answers:
+      - one after the other
+    hint: one after the other
+  - id: one-after-another-2
+    vocab_id: one-after-another
+    prompt_ja: チケットがどんどん積もっているので、優先順位を付け直しましょう。
+    blanked_en: Tickets keep coming in ____, so let's re-prioritize.
+    answers:
+      - one after the other
+    hint: one after the other
+  - id: one-after-another-3
+    vocab_id: one-after-another
+    prompt_ja: 改善案がどんどん出ているので、バックログに切り出します。
+    blanked_en: Improvement ideas are coming ____, so I'll split them into the backlog.
+    answers:
+      - one after the other
+    hint: one after the other
+  - id: side-1
+    vocab_id: side
+    prompt_ja: これはQA側で対応します。
+    blanked_en: The QA ____ will deal with this.
+    answers:
+      - side
+    hint: side
+  - id: side-2
+    vocab_id: side
+    prompt_ja: クライアント側のバグか、サーバ側のバグか、切り分けたいです。
+    blanked_en: I want to determine whether this is a client-____ bug or a server-side bug.
+    answers:
+      - side
+    hint: side
+  - id: side-3
+    vocab_id: side
+    prompt_ja: インフラ側の変更なので、アプリ側は待っていてください。
+    blanked_en: This is an infra-____ change, so the app side can wait.
+    answers:
+      - side
+    hint: side
